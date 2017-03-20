@@ -1,0 +1,527 @@
+2017-03-20 14:58:26.811 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-03-20 14:58:27.292 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.4.2
+2017-03-20 14:58:27.292 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-03-20 14:58:27.293 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2
+2017-03-20 14:58:27.322 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-03-20T14:58:27.293Z
+2017-03-20 14:58:27.323 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-03-20 14:58:27.347 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr
+2017-03-20 14:58:27.355 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/solr.xml
+2017-03-20 14:58:27.819 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-03-20 14:58:27.892 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr
+2017-03-20 14:58:28.054 INFO  (main) [   ] o.e.j.s.Server Started @1974ms
+2017-03-20 14:58:29.693 INFO  (qtp834133664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=131
+2017-03-20 14:58:30.699 INFO  (qtp834133664-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=24
+2017-03-20 14:58:30.760 INFO  (qtp834133664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=22
+2017-03-20 14:58:30.774 INFO  (qtp834133664-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=blacklight-core&action=STATUS&wt=json} status=0 QTime=1
+2017-03-20 14:58:30.828 INFO  (qtp834133664-19) [   ] o.a.s.h.a.CoreAdminOperation core create command name=blacklight-core&action=CREATE&instanceDir=blacklight-core&wt=json
+2017-03-20 14:58:30.890 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.SolrResourceLoader [blacklight-core] Added 8 libs to classloader, from paths: [/var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/contrib/analysis-extras/lib, /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/contrib/analysis-extras/lucene-libs]
+2017-03-20 14:58:31.093 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.0.0
+2017-03-20 14:58:31.375 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.IndexSchema [blacklight-core] Schema name=Blacklight Demo Index
+2017-03-20 14:58:31.521 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.522 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.541 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.552 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.566 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.566 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.567 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-03-20 14:58:31.572 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.576 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.577 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.581 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.582 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.582 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.582 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.583 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.584 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.587 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.587 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.588 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.588 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.588 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.591 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.592 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.592 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.594 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.595 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.595 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.597 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.597 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.598 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.598 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.598 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.602 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.602 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.602 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.603 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.604 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.604 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.604 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.605 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.608 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.608 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.608 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.611 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.611 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.611 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.617 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.617 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.619 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.620 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.620 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.625 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.625 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.625 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.626 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.628 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.629 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.629 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.630 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.632 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.633 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.636 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.637 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.647 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.648 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenFilterFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.653 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.FieldTypePluginLoader TokenizerFactory is using deprecated 5.0.0 emulation. You should at some point declare and reindex to at least 6.0, because 5.x emulation is deprecated and will be removed in 7.0
+2017-03-20 14:58:31.696 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.IndexSchema [blacklight-core] default search field in schema is text. WARNING: Deprecated, please use 'df' on request instead.
+2017-03-20 14:58:31.697 WARN  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.IndexSchema [blacklight-core] query parser default operator is OR. WARNING: Deprecated, please use 'q.op' on request instead.
+2017-03-20 14:58:31.702 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.IndexSchema Loaded schema Blacklight Demo Index/1.5 with uniqueid field id
+2017-03-20 14:58:31.816 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.CoreContainer Creating SolrCore 'blacklight-core' using configuration from instancedir /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/blacklight-core
+2017-03-20 14:58:31.837 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.SolrCore [[blacklight-core] ] Opening new SolrCore at [/var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/blacklight-core], dataDir=[/var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/blacklight-core/data/]
+2017-03-20 14:58:32.179 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2017-03-20 14:58:32.180 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-03-20 14:58:32.203 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.SolrIndexSearcher Opening [Searcher@51f0de19[blacklight-core] main]
+2017-03-20 14:58:32.213 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/blacklight-core/conf
+2017-03-20 14:58:32.223 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/var/folders/ys/2zqn1n7n44z0j7v_8v504fm1v4byym/T/solr-6.4.2/server/solr/blacklight-core/conf
+2017-03-20 14:58:32.223 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-03-20 14:58:32.230 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-03-20 14:58:32.241 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: default
+2017-03-20 14:58:32.244 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: author
+2017-03-20 14:58:32.249 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: subject
+2017-03-20 14:58:32.252 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: title
+2017-03-20 14:58:32.253 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-03-20 14:58:32.256 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,suggestAnalyzerFieldType=textSuggest,buildOnCommit=true,field=suggest}
+2017-03-20 14:58:32.265 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.s.SolrSuggester No dictionaryImpl parameter was provided falling back to org.apache.solr.spelling.suggest.HighFrequencyDictionaryFactory
+2017-03-20 14:58:32.265 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,suggestAnalyzerFieldType=textSuggest,buildOnCommit=true,field=suggest}
+2017-03-20 14:58:32.266 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.c.SuggestComponent Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@4b4e176a, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=org.apache.solr.spelling.suggest.HighFrequencyDictionaryFactory, sizeInBytes=0 ], buildOnCommit=true, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+2017-03-20 14:58:32.266 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-03-20 14:58:32.285 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-03-20 14:58:32.286 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: author
+2017-03-20 14:58:32.288 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: subject
+2017-03-20 14:58:32.289 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: title
+2017-03-20 14:58:32.289 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=blacklight-core&action=CREATE&instanceDir=blacklight-core&wt=json} status=0 QTime=1461
+2017-03-20 14:58:32.291 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SuggestComponent buildOnStartup: mySuggester
+2017-03-20 14:58:32.291 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2017-03-20 14:58:32.303 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.c.SolrCore [blacklight-core] Registered new searcher Searcher@51f0de19[blacklight-core] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-03-20 14:58:33.168 INFO  (qtp834133664-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=18
+2017-03-20 14:58:48.148 INFO  (qtp834133664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1490021927934} status=0 QTime=0
+2017-03-20 14:58:48.202 INFO  (qtp834133664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1490021927936} status=0 QTime=52
+2017-03-20 14:58:48.262 INFO  (qtp834133664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1490021927936} status=0 QTime=52
+2017-03-20 14:59:09.063 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{} 0 17
+2017-03-20 14:59:09.064 ERROR (qtp834133664-16) [   x:blacklight-core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: missing content stream
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:63)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:166)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2299)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:464)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:345)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:296)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-03-20 14:59:09.498 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[00282214, 00282371, 00313831, 00314247, 43037890, 53029833, 77826928, 78908283, 79930185, 85910001, ... (30 adds)]} 0 367
+2017-03-20 14:59:09.527 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-03-20 14:59:09.530 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3e75807b
+2017-03-20 14:59:09.762 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.s.SolrIndexSearcher Opening [Searcher@4524af3d[blacklight-core] main]
+2017-03-20 14:59:09.765 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-03-20 14:59:09.765 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Building spell index for spell checker: default
+2017-03-20 14:59:09.874 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Building spell index for spell checker: author
+2017-03-20 14:59:09.905 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Building spell index for spell checker: subject
+2017-03-20 14:59:09.932 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Building spell index for spell checker: title
+2017-03-20 14:59:09.971 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SuggestComponent buildOnCommit: mySuggester
+2017-03-20 14:59:09.971 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2017-03-20 14:59:10.075 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.c.SolrCore [blacklight-core] Registered new searcher Searcher@4524af3d[blacklight-core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.4.2):C30)))}
+2017-03-20 14:59:10.075 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={commit=true}{commit=} 0 564
+2017-03-20 14:59:16.244 INFO  (qtp834133664-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1490021956119} status=0 QTime=0
+2017-03-20 14:59:16.309 INFO  (qtp834133664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1490021956120} status=0 QTime=63
+2017-03-20 14:59:16.313 INFO  (qtp834133664-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1490021956120} status=0 QTime=65
+2017-03-20 14:59:18.461 INFO  (qtp834133664-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1490021956119} status=0 QTime=0
+2017-03-20 14:59:18.469 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1490021958450} status=0 QTime=3
+2017-03-20 14:59:18.479 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/replication params={wt=json&command=details&_=1490021958450} status=0 QTime=6
+2017-03-20 14:59:18.495 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1490021956120&ts=1490021956120} status=503 QTime=1
+2017-03-20 14:59:18.525 INFO  (qtp834133664-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1490021956120} status=0 QTime=62
+2017-03-20 14:59:18.533 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/admin/system params={wt=json&_=1490021958450} status=0 QTime=41
+2017-03-20 14:59:58.262 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/select params={facet.query=pub_date:[2012+TO+*]&facet.query=pub_date:[2007+TO+*]&facet.query=pub_date:[1992+TO+*]&f.subject_topic_facet.facet.limit=21&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&facet.pivot=format,language_facet&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&rows=10&wt=ruby&facet=true&f.language_facet.facet.limit=11} hits=30 status=0 QTime=148
+2017-03-20 15:06:45.571 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{} 0 0
+2017-03-20 15:06:45.571 ERROR (qtp834133664-17) [   x:blacklight-core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: missing content stream
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:63)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:166)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2299)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:464)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:345)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:296)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-03-20 15:06:45.957 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[00005914, 00008195, 00009103, 00010376, 00021595, 00027578, 00032210, 00034914, 00035247, 00036145, ... (100 adds)]} 0 221
+2017-03-20 15:06:46.139 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[00441057, 00459540, 00459637, 00465099, 03008503, 05033200, 05033281, 05033290, 05037272, 06013920, ... (100 adds)]} 0 129
+2017-03-20 15:06:46.384 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[24005689, 24023714, 24028654, 24032115, 25020008, 26010935, 26020038, 26024034, 26027699, 27005866, ... (100 adds)]} 0 113
+2017-03-20 15:06:46.562 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[41014627, 41022104, 42014087, 42018637, 42043973, 42019863, 42045237, 42022635, 43006011, 43011764, ... (100 adds)]} 0 87
+2017-03-20 15:06:46.763 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[57007568, 57014535, 57017575, 57029501, 58025306, 58034752, 58037987, 58052842, 59007250, 59008852, ... (100 adds)]} 0 69
+2017-03-20 15:06:46.963 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[67074893, 67079677, 67081509, 67090484, 68002603, 68003522, 68006993, 68014106, 68017062, 68018389, ... (100 adds)]} 0 96
+2017-03-20 15:06:47.134 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[72356017, 72468680, 72483876, 72610520, 73200140, 73202371, 73373346, 73473902, 73556167, 73852029, ... (100 adds)]} 0 63
+2017-03-20 15:06:47.283 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[75481139, 75485091, 75504504, 75508961, 75568205, 75570478, 75574030, 75575949, 75587687, 75590943, ... (100 adds)]} 0 57
+2017-03-20 15:06:47.447 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[77154326, 77156177, 77178158, 77228021, 77355205, 77355363, 77355364, 77358130, 77359599, 77362642, ... (100 adds)]} 0 60
+2017-03-20 15:06:47.614 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[78375421, 78351414, 78356440, 78366097, 78366577, 78377485, 78384755, 78385386, 78387918, 78393710, ... (100 adds)]} 0 65
+2017-03-20 15:06:47.799 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[80105900, 80106649, 80107163, 80110963, 80107543, 80107545, 80110417, 80110477, 80114279, 80115599, ... (100 adds)]} 0 65
+2017-03-20 15:06:47.965 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[82111521, 82090198, 82100844, 82104303, 82106368, 82114866, 82114880, 82125942, 82129369, 82144673, ... (100 adds)]} 0 71
+2017-03-20 15:06:48.146 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[84229108, 84238345, 84248341, 84252063, 84600285, 84603620, 84960373, 84962075, 85001621, 85002412, ... (100 adds)]} 0 48
+2017-03-20 15:06:48.302 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[87601505, 87602033, 87673063, 87902125, 87905435, 87917810, 87930716, 87931798, 87931861, 88007945, ... (100 adds)]} 0 57
+2017-03-20 15:06:48.477 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[90003667, 90004067, 90047349, 90050902, 90124388, 90125848, 90142413, 90146452, 90150406, 90151386, ... (100 adds)]} 0 64
+2017-03-20 15:06:48.669 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[92115088, 92116470, 92117465, 92118066, 92041600, 92041652, 92042344, 92125488, 92042767, 92119022, ... (100 adds)]} 0 61
+2017-03-20 15:06:48.798 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[93930747, 93980842, 93981793, 94000502, 94000774, 94011821, 94014751, 94020272, 94022062, 94025645, ... (100 adds)]} 0 46
+2017-03-20 15:06:48.996 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[95040610, 95083208, 95083310, 95101136, 95050845, 95069185, 95072702, 95079957, 95130679, 95137259, ... (100 adds)]} 0 54
+2017-03-20 15:06:49.198 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[96052007, 96061159, 96911127, 96965555, 96933325, 96960525, 96963411, 96965508, 97005313, 97008632, ... (100 adds)]} 0 86
+2017-03-20 15:06:49.334 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[98152299, 98156125, 98163087, 98170563, 98170881, 98172498, 98172748, 98186491, 98196534, 98200451, ... (100 adds)]} 0 51
+2017-03-20 15:06:49.526 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[99217840, 99219569, 99222805, 99229555, 99489069, 99496793, 99500125, 99500130, 99500133, 99502354, ... (100 adds)]} 0 68
+2017-03-20 15:06:49.694 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2001297094, 2001297527, 2001320298, 2001324629, 2001312361, 2001313245, 2001313366, 2001314616, 2001327600, 2001330660, ... (100 adds)]} 0 54
+2017-03-20 15:06:49.872 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2002152342, 2002152765, 2002153355, 2002153405, 2002153679, 2002155257, 2002155626, 2002155809, 2002071063, 2002073569, ... (100 adds)]} 0 73
+2017-03-20 15:06:50.015 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2002508366, 2002508512, 2002514207, 2002514488, 2002550669, 2002553496, 2002553497, 2002554450, 2002554455, 2002554458, ... (100 adds)]} 0 46
+2017-03-20 15:06:50.181 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2003381141, 2003382148, 2003382243, 2003382632, 2003383492, 2003383907, 2003384072, 2003386753, 2003396142, 2003401698, ... (100 adds)]} 0 49
+2017-03-20 15:06:50.337 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2003501598, 2003501613, 2003501614, 2003502293, 2004016257, 2004016422, 2004016672, 2004018183, 2004022097, 2004022557, ... (100 adds)]} 0 48
+2017-03-20 15:06:50.514 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2004349719, 2004343075, 2004343350, 2004345724, 2004346596, 2004349926, 2004351636, 2004355764, 2004356659, 2004356681, ... (100 adds)]} 0 53
+2017-03-20 15:06:50.645 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2004719013, 2004719014, 2005005219, 2005005336, 2005006578, 2005006846, 2005007944, 2005009626, 2005012622, 2005018598, ... (100 adds)]} 0 46
+2017-03-20 15:06:50.868 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2005332797, 2005336238, 2005336371, 2005336488, 2005336586, 2005336729, 2005337449, 2005337704, 2005327436, 2005327448, ... (100 adds)]} 0 76
+2017-03-20 15:06:51.032 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2005474105, 2005475411, 2005476372, 2005476649, 2005476861, 2005477475, 2005478275, 2005483081, 2005483144, 2005483159, ... (100 adds)]} 0 53
+2017-03-20 15:06:51.210 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2006005972, 2006007012, 2006007549, 2006007597, 2006010396, 2006010784, 2006012269, 2006015837, 2006018658, 2006016153, ... (100 adds)]} 0 62
+2017-03-20 15:06:51.414 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2006100981, 2006101472, 2006101626, 2006282546, 2006284335, 2006284623, 2006287194, 2006287341, 2006295646, 2006296021, ... (100 adds)]} 0 75
+2017-03-20 15:06:51.550 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2006326182, 2006326948, 2006326949, 2006326956, 2006326981, 2006326982, 2006327021, 2006327053, 2006327439, 2006327565, ... (100 adds)]} 0 60
+2017-03-20 15:06:51.766 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2006370563, 2006370901, 2006371601, 2006374537, 2006371760, 2006372748, 2006373702, 2006374016, 2006375244, 2006380751, ... (100 adds)]} 0 74
+2017-03-20 15:06:51.948 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2006482196, 2006463310, 2006463614, 2006463792, 2006463979, 2006485102, 2006486327, 2006487404, 2006489211, 2006495233, ... (100 adds)]} 0 56
+2017-03-20 15:06:52.147 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007004972, 2007005065, 2007005169, 2007005173, 2007005281, 2007005473, 2007005918, 2007008620, 2007009390, 2007007333, ... (100 adds)]} 0 76
+2017-03-20 15:06:52.328 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007024592, 2007024934, 2007024967, 2007024998, 2007030219, 2007030389, 2007030859, 2007031389, 2007031498, 2007031584, ... (100 adds)]} 0 61
+2017-03-20 15:06:52.479 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007051293, 2007051591, 2007050131, 2007050450, 2007050491, 2007050656, 2007052515, 2007052534, 2007052593, 2007052756, ... (100 adds)]} 0 59
+2017-03-20 15:06:52.686 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007317198, 2007317253, 2007321870, 2007322159, 2007322018, 2007322095, 2007322107, 2007322143, 2007322303, 2007322304, ... (100 adds)]} 0 55
+2017-03-20 15:06:52.935 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007378689, 2007379164, 2007379166, 2007379910, 2007379954, 2007380441, 2007380636, 2007380872, 2007381016, 2007381871, ... (100 adds)]} 0 97
+2017-03-20 15:06:53.137 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007416017, 2007416155, 2007418173, 2007418474, 2007414551, 2007414553, 2007414708, 2007415290, 2007422064, 2007422314, ... (100 adds)]} 0 52
+2017-03-20 15:06:53.296 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007445255, 2007445263, 2007445264, 2007445265, 2007445266, 2007445241, 2007445242, 2007445248, 2007445249, 2007445268, ... (100 adds)]} 0 53
+2017-03-20 15:06:53.466 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007468880, 2007468887, 2007469814, 2007470191, 2007470419, 2007470676, 2007470957, 2007470962, 2007471003, 2007471049, ... (100 adds)]} 0 54
+2017-03-20 15:06:53.600 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2007926772, 2007927115, 2007927135, 2007927386, 2007928175, 2007928635, 2007928751, 2007928860, 2007929261, 2007929715, ... (100 adds)]} 0 46
+2017-03-20 15:06:53.826 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008003515, 2008003332, 2008003388, 2008003405, 2008003552, 2008003712, 2008003754, 2008003758, 2008003855, 2008003918, ... (100 adds)]} 0 111
+2017-03-20 15:06:53.974 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008011159, 2008010506, 2008010557, 2008010698, 2008010755, 2008011177, 2008011262, 2008011384, 2008011398, 2008011500, ... (100 adds)]} 0 55
+2017-03-20 15:06:54.191 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008016999, 2008017063, 2008017115, 2008017137, 2008017138, 2008017147, 2008017284, 2008017404, 2008016594, 2008016679, ... (100 adds)]} 0 61
+2017-03-20 15:06:54.374 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008022721, 2008022732, 2008022793, 2008022802, 2008022984, 2008023086, 2008023093, 2008023115, 2008023142, 2008023159, ... (100 adds)]} 0 62
+2017-03-20 15:06:54.533 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008026392, 2008026667, 2008026502, 2008026505, 2008026558, 2008026610, 2008026681, 2008026789, 2008026813, 2008026914, ... (100 adds)]} 0 48
+2017-03-20 15:06:54.701 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008032011, 2008032018, 2008031819, 2008031835, 2008031916, 2008031944, 2008032542, 2008032548, 2008032646, 2008032647, ... (100 adds)]} 0 56
+2017-03-20 15:06:54.878 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008037287, 2008037304, 2008035240, 2008035296, 2008035326, 2008035338, 2008037538, 2008037688, 2008037700, 2008037764, ... (100 adds)]} 0 54
+2017-03-20 15:06:55.040 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008044010, 2008044011, 2008044164, 2008044173, 2008044179, 2008044209, 2008044261, 2008042478, 2008042480, 2008042536, ... (100 adds)]} 0 59
+2017-03-20 15:06:55.196 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008052604, 2008052664, 2008052666, 2008052837, 2008052970, 2008053042, 2008053091, 2008053132, 2008053148, 2008053245, ... (100 adds)]} 0 50
+2017-03-20 15:06:55.336 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008055610, 2008055611, 2008055617, 2008055451, 2008055463, 2008055477, 2008055494, 2008055621, 2008055627, 2008055632, ... (100 adds)]} 0 49
+2017-03-20 15:06:55.599 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008276145, 2008276577, 2008276584, 2008276376, 2008276454, 2008276482, 2008276488, 2008276646, 2008276797, 2008276805, ... (100 adds)]} 0 149
+2017-03-20 15:06:55.852 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008299237, 2008299611, 2008300016, 2008300040, 2008300153, 2008300234, 2008278104, 2008278118, 2008278119, 2008278175, ... (100 adds)]} 0 70
+2017-03-20 15:06:56.032 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008308478, 2008308582, 2008308602, 2008308659, 2008308700, 2008308756, 2008308798, 2008308830, 2008308878, 2008308916, ... (100 adds)]} 0 72
+2017-03-20 15:06:56.198 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008315325, 2008315331, 2008316733, 2008316793, 2008315334, 2008315461, 2008316285, 2008316528, 2008316941, 2008316942, ... (100 adds)]} 0 41
+2017-03-20 15:06:56.374 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008323052, 2008323252, 2008323299, 2008323337, 2008323361, 2008323400, 2008323449, 2008323476, 2008323519, 2008323531, ... (100 adds)]} 0 75
+2017-03-20 15:06:56.511 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008327620, 2008324950, 2008324951, 2008324962, 2008324968, 2008327628, 2008327629, 2008327630, 2008327631, 2008327632, ... (100 adds)]} 0 37
+2017-03-20 15:06:56.649 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008331892, 2008331894, 2008331955, 2008331966, 2008331981, 2008332690, 2008332802, 2008332817, 2008332860, 2008333014, ... (100 adds)]} 0 45
+2017-03-20 15:06:56.770 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008337795, 2008337798, 2008337799, 2008337800, 2008337277, 2008337278, 2008337279, 2008337334, 2008337803, 2008337916, ... (100 adds)]} 0 39
+2017-03-20 15:06:56.888 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008344915, 2008344613, 2008344649, 2008344682, 2008344693, 2008344919, 2008344925, 2008345089, 2008345381, 2008345551, ... (100 adds)]} 0 33
+2017-03-20 15:06:57.026 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008349574, 2008349575, 2008349576, 2008349577, 2008349578, 2008349579, 2008347134, 2008347284, 2008347290, 2008347293, ... (100 adds)]} 0 52
+2017-03-20 15:06:57.168 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008353223, 2008353227, 2008353233, 2008353844, 2008354083, 2008354482, 2008355328, 2008355649, 2008355685, 2008355782, ... (100 adds)]} 0 50
+2017-03-20 15:06:57.317 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008356670, 2008356683, 2008356684, 2008356685, 2008356716, 2008356722, 2008356717, 2008356719, 2008356721, 2008356728, ... (100 adds)]} 0 51
+2017-03-20 15:06:57.487 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008356913, 2008356914, 2008356915, 2008356916, 2008356917, 2008356918, 2008357113, 2008359317, 2008359597, 2008359696, ... (100 adds)]} 0 52
+2017-03-20 15:06:57.639 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008383440, 2008383800, 2008384053, 2008384355, 2008384416, 2008384574, 2008384616, 2008384646, 2008385072, 2008381735, ... (100 adds)]} 0 54
+2017-03-20 15:06:57.886 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008394265, 2008394416, 2008394513, 2008394619, 2008401107, 2008401109, 2008401115, 2008401152, 2008401159, 2008401168, ... (48 adds)]} 0 28
+2017-03-20 15:06:57.887 ERROR (qtp834133664-12) [   x:blacklight-core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=2008405573] multiple values encountered for non multiValued field title_vern_display: [초판., 백제 멸망 의 진실]
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:93)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:82)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:277)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:211)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:166)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:981)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:736)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:492)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:139)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:115)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:78)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:166)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2299)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:464)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:345)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:296)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-03-20 15:06:57.989 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008394265]} 0 1
+2017-03-20 15:06:58.001 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008394416]} 0 1
+2017-03-20 15:06:58.012 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008394513]} 0 1
+2017-03-20 15:06:58.134 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008394619]} 0 0
+2017-03-20 15:06:58.138 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401107]} 0 1
+2017-03-20 15:06:58.141 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401109]} 0 1
+2017-03-20 15:06:58.156 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401115]} 0 1
+2017-03-20 15:06:58.173 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401152]} 0 1
+2017-03-20 15:06:58.176 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401159]} 0 1
+2017-03-20 15:06:58.187 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401168]} 0 1
+2017-03-20 15:06:58.193 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008401266]} 0 1
+2017-03-20 15:06:58.196 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402255]} 0 1
+2017-03-20 15:06:58.200 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402264]} 0 1
+2017-03-20 15:06:58.208 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402359]} 0 1
+2017-03-20 15:06:58.216 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402376]} 0 1
+2017-03-20 15:06:58.222 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402385]} 0 1
+2017-03-20 15:06:58.232 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402524]} 0 1
+2017-03-20 15:06:58.240 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402596]} 0 1
+2017-03-20 15:06:58.248 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008402686]} 0 1
+2017-03-20 15:06:58.258 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403112]} 0 1
+2017-03-20 15:06:58.270 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403299]} 0 1
+2017-03-20 15:06:58.276 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403445]} 0 1
+2017-03-20 15:06:58.313 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403711]} 0 1
+2017-03-20 15:06:58.326 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403752]} 0 1
+2017-03-20 15:06:58.347 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404565]} 0 0
+2017-03-20 15:06:58.353 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404611]} 0 1
+2017-03-20 15:06:58.356 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404656]} 0 1
+2017-03-20 15:06:58.457 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404774]} 0 1
+2017-03-20 15:06:58.499 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404981]} 0 1
+2017-03-20 15:06:58.534 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405225]} 0 1
+2017-03-20 15:06:58.545 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405274]} 0 1
+2017-03-20 15:06:58.578 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405311]} 0 1
+2017-03-20 15:06:58.591 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405439]} 0 1
+2017-03-20 15:06:58.611 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405479]} 0 1
+2017-03-20 15:06:58.614 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405489]} 0 1
+2017-03-20 15:06:58.622 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405495]} 0 1
+2017-03-20 15:06:58.625 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405497]} 0 1
+2017-03-20 15:06:58.631 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405498]} 0 1
+2017-03-20 15:06:58.635 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405500]} 0 0
+2017-03-20 15:06:58.662 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405501]} 0 1
+2017-03-20 15:06:58.691 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405543]} 0 1
+2017-03-20 15:06:58.695 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405552]} 0 1
+2017-03-20 15:06:58.701 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405558]} 0 1
+2017-03-20 15:06:58.706 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405559]} 0 2
+2017-03-20 15:06:58.710 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405563]} 0 1
+2017-03-20 15:06:58.715 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405565]} 0 1
+2017-03-20 15:06:58.721 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405567]} 0 2
+2017-03-20 15:06:58.744 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405570]} 0 2
+2017-03-20 15:06:58.747 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{} 0 0
+2017-03-20 15:06:58.747 ERROR (qtp834133664-18) [   x:blacklight-core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=2008405573] multiple values encountered for non multiValued field title_vern_display: [초판., 백제 멸망 의 진실]
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:93)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:82)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:277)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:211)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:166)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:981)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:736)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:492)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:139)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:115)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:78)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:166)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2299)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:464)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:345)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:296)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-03-20 15:06:58.751 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405578]} 0 1
+2017-03-20 15:06:58.755 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008403769]} 0 2
+2017-03-20 15:06:58.758 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404033]} 0 1
+2017-03-20 15:06:58.762 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404109]} 0 1
+2017-03-20 15:06:58.776 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008404340]} 0 1
+2017-03-20 15:06:58.779 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008406087]} 0 1
+2017-03-20 15:06:58.783 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008406521]} 0 2
+2017-03-20 15:06:58.787 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008406629]} 0 2
+2017-03-20 15:06:58.791 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008406657]} 0 1
+2017-03-20 15:06:58.794 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008406665]} 0 1
+2017-03-20 15:06:58.798 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407156]} 0 1
+2017-03-20 15:06:58.801 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407681]} 0 1
+2017-03-20 15:06:58.804 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407722]} 0 1
+2017-03-20 15:06:58.808 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407723]} 0 2
+2017-03-20 15:06:58.812 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407835]} 0 2
+2017-03-20 15:06:58.816 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407837]} 0 2
+2017-03-20 15:06:58.821 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407840]} 0 2
+2017-03-20 15:06:58.821 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008432553, 2008432554, 2008432555, 2008432565, 2008438613, 2008438679, 2008438853, 2008438714, 2008438779, 2008438841, ... (100 adds)]} 0 132
+2017-03-20 15:06:58.824 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405583]} 0 1
+2017-03-20 15:06:58.828 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405586]} 0 1
+2017-03-20 15:06:58.832 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405589]} 0 1
+2017-03-20 15:06:58.835 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008405595]} 0 1
+2017-03-20 15:06:58.839 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407856]} 0 2
+2017-03-20 15:06:58.843 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407941]} 0 1
+2017-03-20 15:06:58.856 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407955]} 0 1
+2017-03-20 15:06:58.863 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008408004]} 0 1
+2017-03-20 15:06:58.883 INFO  (qtp834133664-16) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407841]} 0 1
+2017-03-20 15:06:58.899 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407842]} 0 2
+2017-03-20 15:06:58.926 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407852]} 0 2
+2017-03-20 15:06:58.954 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008407855]} 0 2
+2017-03-20 15:06:58.976 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008408743]} 0 1
+2017-03-20 15:06:58.990 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008408748]} 0 1
+2017-03-20 15:06:58.999 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008408772]} 0 1
+2017-03-20 15:06:59.025 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008408819]} 0 1
+2017-03-20 15:06:59.056 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008409157]} 0 1
+2017-03-20 15:06:59.072 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008409851]} 0 1
+2017-03-20 15:06:59.075 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008410153]} 0 1
+2017-03-20 15:06:59.081 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008410809]} 0 1
+2017-03-20 15:06:59.088 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411083]} 0 0
+2017-03-20 15:06:59.088 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008446703, 2008449865, 2008446891, 2008447218, 2008447728, 2008449888, 2008449965, 2008449968, 2008450062, 2008450077, ... (100 adds)]} 0 68
+2017-03-20 15:06:59.118 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411086]} 0 1
+2017-03-20 15:06:59.127 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411111]} 0 1
+2017-03-20 15:06:59.131 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411171]} 0 1
+2017-03-20 15:06:59.134 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411508]} 0 1
+2017-03-20 15:06:59.146 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008411697]} 0 1
+2017-03-20 15:06:59.154 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412088]} 0 0
+2017-03-20 15:06:59.159 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412093]} 0 0
+2017-03-20 15:06:59.163 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412112]} 0 1
+2017-03-20 15:06:59.166 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412242]} 0 1
+2017-03-20 15:06:59.168 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412255]} 0 0
+2017-03-20 15:06:59.172 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412256]} 0 0
+2017-03-20 15:06:59.175 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412380]} 0 0
+2017-03-20 15:06:59.181 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412479]} 0 1
+2017-03-20 15:06:59.263 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008412489, 2008412506, 2008412530, 2008412535, 2008412569, 2008412777, 2008412778, 2008412793, 2008412878, 2008412969, ... (100 adds)]} 0 72
+2017-03-20 15:06:59.362 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008419225, 2008419264, 2008419277, 2008419282, 2008419285, 2008419292, 2008419295, 2008419296, 2008419297, 2008419321, ... (100 adds)]} 0 73
+2017-03-20 15:06:59.470 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008428779, 2008428787, 2008429365, 2008429836, 2008429986, 2008430042, 2008430044, 2008430170, 2008430200, 2008430205, ... (100 adds)]} 0 97
+2017-03-20 15:06:59.550 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008456323, 2008456366, 2008456406, 2008456533, 2008456614, 2008456640, 2008456641, 2008456702, 2008456915, 2008456945, ... (100 adds)]} 0 67
+2017-03-20 15:06:59.623 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008465087, 2008465089, 2008465187, 2008465188, 2008465189, 2008465205, 2008465210, 2008465236, 2008465252, 2008465270, ... (100 adds)]} 0 63
+2017-03-20 15:06:59.784 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008471777, 2008471779, 2008471847, 2008471956, 2008471979, 2008471980, 2008471990, 2008472044, 2008472133, 2008472136, ... (100 adds)]} 0 54
+2017-03-20 15:06:59.967 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008476191, 2008476221, 2008476224, 2008476228, 2008476233, 2008475803, 2008475811, 2008475816, 2008475818, 2008476237, ... (100 adds)]} 0 50
+2017-03-20 15:07:00.160 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008481537, 2008482037, 2008482093, 2008482137, 2008485095, 2008485125, 2008485146, 2008485165, 2008485174, 2008485203, ... (100 adds)]} 0 57
+2017-03-20 15:07:00.363 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008487620, 2008487635, 2008487665, 2008489027, 2008489825, 2008489843, 2008489844, 2008490949, 2008491007, 2008491008, ... (100 adds)]} 0 57
+2017-03-20 15:07:00.578 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008495256, 2008495338, 2008495396, 2008495551, 2008503142, 2008503143, 2008503144, 2008503167, 2008503173, 2008503174, ... (100 adds)]} 0 84
+2017-03-20 15:07:00.820 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008542680, 2008542681, 2008542766, 2008543361, 2008543445, 2008543476, 2008543479, 2008543481, 2008543482, 2008543483, ... (100 adds)]} 0 101
+2017-03-20 15:07:00.928 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008920857, 2008920990, 2008921095, 2008921396, 2008921484, 2008921931, 2008921934, 2008922000, 2008922182, 2008922409, ... (100 adds)]} 0 53
+2017-03-20 15:07:01.076 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2008932709, 2008932848, 2008932955, 2008933093, 2008933118, 2008933236, 2008933391, 2008933669, 2008933671, 2008928562, ... (100 adds)]} 0 51
+2017-03-20 15:07:01.247 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009000476, 2009000479, 2009000480, 2009000488, 2009000492, 2009000497, 2009000500, 2009000174, 2009000197, 2009000205, ... (100 adds)]} 0 66
+2017-03-20 15:07:01.417 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009000821, 2009000823, 2009000825, 2009000828, 2009000831, 2009000836, 2009000839, 2009000843, 2009000846, 2009000870, ... (100 adds)]} 0 48
+2017-03-20 15:07:01.573 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009001227, 2009001239, 2009001248, 2009001321, 2009001323, 2009001332, 2009001333, 2009001336, 2009001337, 2009001339, ... (100 adds)]} 0 52
+2017-03-20 15:07:01.703 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009001599, 2009001600, 2009001601, 2009001602, 2009001604, 2009001607, 2009001609, 2009001610, 2009001611, 2009001618, ... (100 adds)]} 0 42
+2017-03-20 15:07:01.875 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009001848, 2009001854, 2009001855, 2009001863, 2009001868, 2009001870, 2009001874, 2009001879, 2009001892, 2009001884, ... (100 adds)]} 0 57
+2017-03-20 15:07:02.040 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009002038, 2009002039, 2009002040, 2009002159, 2009002162, 2009002163, 2009002165, 2009002166, 2009002167, 2009002168, ... (100 adds)]} 0 58
+2017-03-20 15:07:02.196 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009002424, 2009002431, 2009002433, 2009002434, 2009002436, 2009002437, 2009002455, 2009002456, 2009002458, 2009002461, ... (100 adds)]} 0 40
+2017-03-20 15:07:02.410 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009002758, 2009002759, 2009002760, 2009002722, 2009002724, 2009002725, 2009002726, 2009002772, 2009002775, 2009002781, ... (100 adds)]} 0 58
+2017-03-20 15:07:02.557 INFO  (qtp834133664-15) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009287077, 2009287078, 2009287079, 2009287080, 2009287092, 2009285067, 2009285068, 2009285069, 2009286000, 2009287186, ... (100 adds)]} 0 54
+2017-03-20 15:07:02.729 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009316027, 2009316028, 2009316029, 2009316030, 2009316034, 2009316043, 2009316045, 2009316046, 2009316047, 2009317018, ... (100 adds)]} 0 42
+2017-03-20 15:07:02.885 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009338142, 2009338143, 2009338144, 2009338152, 2009338159, 2009338235, 2009338248, 2009338256, 2009338176, 2009338195, ... (100 adds)]} 0 44
+2017-03-20 15:07:03.043 INFO  (qtp834133664-14) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009358725, 2009358474, 2009358475, 2009358476, 2009358477, 2009358726, 2009358727, 2009358728, 2009358729, 2009358734, ... (100 adds)]} 0 51
+2017-03-20 15:07:03.279 INFO  (qtp834133664-21) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009372513, 2009372985, 2009372986, 2009372989, 2009373023, 2009373024, 2009373063, 2009373125, 2009373128, 2009373130, ... (100 adds)]} 0 62
+2017-03-20 15:07:03.555 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[2009387057, 2009373986, 2009373987, 2009373996, 2009373997, 2009535091, 2009535174, 2009535187, 2009535205, 2009600000, ... (100 adds)]} 0 132
+2017-03-20 15:07:03.788 INFO  (qtp834133664-12) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={}{add=[mm 79032169, mm 81057505, mm 81010884, mm 81057117, mm 81057299, mm 81057448, mm 81057844, mm 81058339, mm 81075867, mm 81075905, ... (73 adds)]} 0 117
+2017-03-20 15:07:03.790 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-03-20 15:07:03.791 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3e75807b
+2017-03-20 15:07:06.197 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.s.SolrIndexSearcher Opening [Searcher@3f761589[blacklight-core] main]
+2017-03-20 15:07:06.199 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Index is not optimized therefore skipping building spell check index for: default
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Index is not optimized therefore skipping building spell check index for: author
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Index is not optimized therefore skipping building spell check index for: subject
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SpellCheckComponent Index is not optimized therefore skipping building spell check index for: title
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.h.c.SuggestComponent buildOnCommit: mySuggester
+2017-03-20 15:07:06.199 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2017-03-20 15:07:10.374 INFO  (searcherExecutor-7-thread-1-processing-x:blacklight-core) [   x:blacklight-core] o.a.s.c.SolrCore [blacklight-core] Registered new searcher Searcher@3f761589[blacklight-core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.4.2):C9746/48:delGen=1) Uninverting(_2(6.4.2):C174)))}
+2017-03-20 15:07:10.375 INFO  (qtp834133664-17) [   x:blacklight-core] o.a.s.u.p.LogUpdateProcessorFactory [blacklight-core]  webapp=/solr path=/update/json params={commit=true}{commit=} 0 6584
+2017-03-20 15:07:58.614 INFO  (qtp834133664-19) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/select params={facet.query=pub_date:[2012+TO+*]&facet.query=pub_date:[2007+TO+*]&facet.query=pub_date:[1992+TO+*]&q=beer&f.subject_topic_facet.facet.limit=21&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&facet.pivot=format,language_facet&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&rows=10&wt=ruby&facet=true&f.language_facet.facet.limit=11} hits=8 status=0 QTime=141
+2017-03-20 15:07:59.272 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /suggest,class = solr.SearchHandler,attributes = {startup=lazy, name=/suggest, class=solr.SearchHandler},args = {defaults={suggest=true,suggest.count=5,suggest.dictionary=mySuggester},components=[suggest]}} 
+2017-03-20 15:07:59.273 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : q=beer&suggest.count=5&suggest=true&suggest.dictionary=mySuggester&wt=ruby
+2017-03-20 15:07:59.273 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.h.c.SuggestComponent SuggestComponent process with : q=beer&suggest.count=5&suggest=true&suggest.dictionary=mySuggester&wt=ruby
+2017-03-20 15:07:59.283 INFO  (qtp834133664-20) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/suggest params={q=beer&wt=ruby} status=0 QTime=10
+2017-03-20 15:08:05.668 INFO  (qtp834133664-18) [   x:blacklight-core] o.a.s.c.S.Request [blacklight-core]  webapp=/solr path=/select params={facet.query=pub_date:[2012+TO+*]&facet.query=pub_date:[2007+TO+*]&facet.query=pub_date:[1992+TO+*]&f.subject_topic_facet.facet.limit=21&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&facet.pivot=format,language_facet&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&rows=10&wt=ruby&facet=true&f.language_facet.facet.limit=11} hits=9872 status=0 QTime=113
