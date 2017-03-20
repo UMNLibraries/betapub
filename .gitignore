@@ -60,10 +60,7 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-/vendor/solr/server/logs/*
-
+vendor/solr/server/logs/*
 vendor/solr/server/logs/solr_gc.log.0.current
-
 vendor/solr/server/logs/archived/solr_gc.log.0.current
-
 vendor/solr/server/logs/archived/solr_gc.log.0.current
