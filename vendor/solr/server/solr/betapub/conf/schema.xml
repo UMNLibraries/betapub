@@ -129,6 +129,7 @@
     <field name="pubDate" type="tdate" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="displayDate" type="string" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="volume" type="string" indexed="false" stored="true" required="false" multiValued="false" />
+    <field name="issue" type="string" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="citedByCount" type="tint" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="docTypeDescription" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="authors" type="string" indexed="true" stored="true" required="false" multiValued="true" />
