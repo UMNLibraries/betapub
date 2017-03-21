@@ -64,3 +64,4 @@ vendor/solr/server/logs/*
 vendor/solr/server/logs/solr_gc.log.0.current
 vendor/solr/server/logs/archived/solr_gc.log.0.current
 vendor/solr/server/logs/archived/solr_gc.log.0.current
+vendor/solr/server/solr/betapub/data
