@@ -831,7 +831,7 @@
 
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell,/browse">
     <lst name="defaults">
-      <str name="df">_text_</str>
+      <str name="df">generalSearch</str>
     </lst>
   </initParams>
 
@@ -852,7 +852,7 @@
     <lst name="defaults">
       <str name="lowernames">true</str>
       <str name="fmap.meta">ignored_</str>
-      <str name="fmap.content">_text_</str>
+      <str name="fmap.content">generalSearch</str>
     </lst>
   </requestHandler>
 
@@ -917,7 +917,7 @@
     <!-- a spellchecker built from a field of the main index -->
     <lst name="spellchecker">
       <str name="name">default</str>
-      <str name="field">_text_</str>
+      <str name="field">generalSearch</str>
       <str name="classname">solr.DirectSolrSpellChecker</str>
       <!-- the spellcheck distance measure used, the default is the internal levenshtein -->
       <str name="distanceMeasure">internal</str>
@@ -1216,7 +1216,7 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
-    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+    <!-- <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
       <str name="defaultFieldType">strings</str>
       <lst name="typeMapping">
         <str name="valueClass">java.lang.Boolean</str>
@@ -1235,7 +1235,7 @@
         <str name="valueClass">java.lang.Number</str>
         <str name="fieldType">tdoubles</str>
       </lst>
-    </processor>
+  </processor> -->
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>

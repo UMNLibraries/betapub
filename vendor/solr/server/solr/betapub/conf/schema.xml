@@ -45,7 +45,7 @@
     that avoids logging every request
 -->
 
-<schema name="example-data-driven-schema" version="1.6">
+<schema name="betapub" version="1.6">
     <!-- attribute "name" is the name of this schema and is only used for display purposes.
        version="x.y" is Solr's version number for the schema syntax and
        semantics.  It should not normally be changed by applications.
@@ -118,19 +118,20 @@
          If you don't need it, consider removing it and the corresponding copyField directive.
     -->
     <field name="mpid" type="string" indexed="true" stored="true" required="true" multiValued="false" />
-
     <field name="scopus_eid" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="scopus_pubid" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="pmid" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="doi" type="string" indexed="true" stored="true" required="false" multiValued="false" />
-    <field name="pubTitleIndex" type="text_general_no_html" indexed="true" stored="true" required="false" multiValued="false" />
-    <field name="pubTitleDisplay" type="text_general" indexed="false" stored="true" required="false" multiValued="false" />
-    <field name="pubName" type="text_general_no_html" indexed="true" stored="true" required="false" multiValued="false" />
+    <field name="pubTitleIndex" type="text_general_no_html" indexed="true" stored="true" required="true" multiValued="false" />
+    <field name="pubTitleDisplay" type="text_general" indexed="false" stored="true" required="true" multiValued="false" />
+    <field name="pubName" type="text_general" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="pageRange" type="string" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="pubDate" type="tdate" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="displayDate" type="string" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="volume" type="string" indexed="false" stored="true" required="false" multiValued="false" />
-    <field name="citedByCount" type="tint" indexed="false" stored="stored" required="false" multiValued="false" />
+    <field name="issue" type="string" indexed="false" stored="true" required="false" multiValued="false" />
+    <field name="source" type="string" indexed="false" stored="true" required="false" multiValued="false" />
+    <field name="citedByCount" type="tint" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="docTypeDescription" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="authors" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="affiliateAuthors" type="string" indexed="false" stored="true" required="false" multiValued="true" />
@@ -138,23 +139,18 @@
     <field name="affiliateAuthorsDeptName" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="generalSearch" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
-
-
     <!-- doc values are enabled by default for primitive types such as long so we don't index the version field  -->
     <field name="_version_" type="long" indexed="false" stored="false"/>
     <field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
-    <!-- <field name="_text_" type="text_general" indexed="true" stored="false" multiValued="true"/> -->
 
-    <!-- Only enabled in the "schemaless" data-driven example (assuming the client
-         does not know what fields may be searched) because it's very expensive to index everything twice. -->
     <copyField source="mpid" dest="generalSearch"/>
     <copyField source="scopus_eid" dest="generalSearch"/>
     <copyField source="scopus_pubid" dest="generalSearch"/>
     <copyField source="pmid" dest="generalSearch"/>
+    <copyField source="doi" dest="generalSearch"/>
     <copyField source="pubTitleIndex" dest="generalSearch"/>
     <copyField source="pubName" dest="generalSearch"/>
     <copyField source="pubDate" dest="generalSearch"/>
-    <copyField source="displayDate" dest="generalSearch"/>
     <copyField source="docTypeDescription" dest="generalSearch"/>
     <copyField source="authors" dest="generalSearch"/>
     <copyField source="affiliateAuthorsDeptName" dest="generalSearch"/>
@@ -375,7 +371,8 @@
       </analyzer>
     </fieldType>
 
-    <!-- NO HTML version: A modified general text field that strips HTML chars from input, has reasonable, generic cross-language defaults: it tokenizes with StandardTokenizer,
+    <!-- A modified general text field that strips HTML chars from input that has reasonable, generic
+         cross-language defaults: it tokenizes with StandardTokenizer,
 	       removes stop words from case-insensitive "stopwords.txt"
 	       (empty by default), and down cases.  At query time only, it
 	       also applies synonyms.
