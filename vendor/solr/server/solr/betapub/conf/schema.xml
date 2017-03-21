@@ -130,21 +130,34 @@
     <field name="pubDate" type="tdate" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="displayDate" type="string" indexed="false" stored="true" required="false" multiValued="false" />
     <field name="volume" type="string" indexed="false" stored="true" required="false" multiValued="false" />
-    <field name="citedbyCount" type="int" indexed="false" stored="stored" required="false" multiValued="false" />
-    <field name="docTypeDescription" type="string" indexed="false" stored="true" required="false" multiValued="false" />
+    <field name="citedByCount" type="tint" indexed="false" stored="stored" required="false" multiValued="false" />
+    <field name="docTypeDescription" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="authors" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="affiliateAuthors" type="string" indexed="false" stored="true" required="false" multiValued="true" />
+    <field name="affiliateAuthorsDeptId" type="string" indexed="false" stored="true" required="false" multiValued="true" />
+    <field name="affiliateAuthorsDeptName" type="string" indexed="true" stored="true" required="false" multiValued="true" />
+    <field name="generalSearch" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
 
 
     <!-- doc values are enabled by default for primitive types such as long so we don't index the version field  -->
     <field name="_version_" type="long" indexed="false" stored="false"/>
     <field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
-    <field name="_text_" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <!-- <field name="_text_" type="text_general" indexed="true" stored="false" multiValued="true"/> -->
 
     <!-- Only enabled in the "schemaless" data-driven example (assuming the client
          does not know what fields may be searched) because it's very expensive to index everything twice. -->
-    <copyField source="*" dest="_text_"/>
+    <copyField source="mpid" dest="generalSearch"/>
+    <copyField source="scopus_eid" dest="generalSearch"/>
+    <copyField source="scopus_pubid" dest="generalSearch"/>
+    <copyField source="pmid" dest="generalSearch"/>
+    <copyField source="pubTitleIndex" dest="generalSearch"/>
+    <copyField source="pubName" dest="generalSearch"/>
+    <copyField source="pubDate" dest="generalSearch"/>
+    <copyField source="displayDate" dest="generalSearch"/>
+    <copyField source="docTypeDescription" dest="generalSearch"/>
+    <copyField source="authors" dest="generalSearch"/>
+    <copyField source="affiliateAuthorsDeptName" dest="generalSearch"/>
 
     <!-- Dynamic field definitions allow using convention over configuration
        for fields via the specification of patterns to match field names.
