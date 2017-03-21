@@ -134,8 +134,8 @@
     <field name="docTypeDescription" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="authors" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="affiliateAuthors" type="string" indexed="false" stored="true" required="false" multiValued="true" />
-    <field name="affiliateAuthorsDeptId" type="string" indexed="false" stored="true" required="false" multiValued="true" />
-    <field name="affiliateAuthorsDeptName" type="string" indexed="true" stored="true" required="false" multiValued="true" />
+    <!-- <field name="affiliateAuthorsDeptId" type="string" indexed="false" stored="true" required="false" multiValued="true" />
+    <field name="affiliateAuthorsDeptName" type="string" indexed="true" stored="true" required="false" multiValued="true" /> -->
     <field name="generalSearch" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
 
@@ -157,7 +157,6 @@
     <copyField source="displayDate" dest="generalSearch"/>
     <copyField source="docTypeDescription" dest="generalSearch"/>
     <copyField source="authors" dest="generalSearch"/>
-    <copyField source="affiliateAuthorsDeptName" dest="generalSearch"/>
 
     <!-- Dynamic field definitions allow using convention over configuration
        for fields via the specification of patterns to match field names.
