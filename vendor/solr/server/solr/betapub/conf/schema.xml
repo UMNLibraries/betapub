@@ -117,6 +117,7 @@
          WARNING: The _text_ catch-all field will significantly increase your index size.
          If you don't need it, consider removing it and the corresponding copyField directive.
     -->
+    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
     <field name="mpid" type="string" indexed="true" stored="true" required="true" multiValued="false" />
     <field name="scopus_eid" type="string" indexed="true" stored="true" required="false" multiValued="false" />
     <field name="scopus_pubid" type="string" indexed="true" stored="true" required="false" multiValued="false" />
@@ -143,6 +144,7 @@
     <field name="_version_" type="long" indexed="false" stored="false"/>
     <field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
 
+    <copyField source="mpid" dest="id"/>
     <copyField source="mpid" dest="generalSearch"/>
     <copyField source="scopus_eid" dest="generalSearch"/>
     <copyField source="scopus_pubid" dest="generalSearch"/>

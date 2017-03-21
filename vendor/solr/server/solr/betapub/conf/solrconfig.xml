@@ -623,7 +623,7 @@
        handleSelect="true" is not recommended for new users, but is the default
        for backwards compatibility
     -->
-  <requestDispatcher handleSelect="false" >
+  <requestDispatcher handleSelect="true" >
     <!-- Request Parsing
 
          These settings indicate how Solr Requests may be parsed, and
@@ -803,6 +803,16 @@
          <str>nameOfCustomComponent2</str>
        </arr>
       -->
+  </requestHandler>
+
+  <!-- for requests to get a single document; use id=666 instead of q=id:666 -->
+  <requestHandler name="document" class="solr.SearchHandler" >
+    <lst name="defaults">
+      <str name="echoParams">all</str>
+      <str name="fl">*</str>
+      <str name="rows">1</str>
+      <str name="q">{!term f=id v=$id}</str> <!-- use id=666 instead of q=id:666 -->
+    </lst>
   </requestHandler>
 
   <!-- A request handler that returns indented JSON by default -->
