@@ -16,3 +16,4 @@ Foreman will start the Rails web server and Solr services
 $ cd path/to/betapub
 $ bundle exec foreman start
 ```
+garbage text  kdksldkjf
