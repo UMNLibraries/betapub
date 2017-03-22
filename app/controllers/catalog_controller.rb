@@ -147,7 +147,7 @@ class CatalogController < ApplicationController
     # case for a BL "search field", which is really a dismax aggregate
     # of Solr search fields.
 
-    config.add_search_field('pubTitleIndex') do |field|
+    config.add_search_field('pubTitleIndex', label: 'Title') do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = { :'spellcheck.dictionary' => 'pubTitleIndex' }
 
