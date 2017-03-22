@@ -11,4 +11,6 @@
 - Search
     - Autosuggest __Works, could be better__
     - spellcheck
-
+- Sort
+    - Author sort is totally broken
+    - Title sort doesn't work as expected
