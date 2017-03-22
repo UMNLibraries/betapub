@@ -7,7 +7,7 @@
     - authors
 - Facet fixes
     - date (display)
-    - pubName (whole titles vs tokenized)
+    - pubName (whole titles vs tokenized) __DONE!__
 - Search
     - Autosuggest
     - spellcheck

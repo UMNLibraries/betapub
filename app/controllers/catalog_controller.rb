@@ -74,7 +74,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'docTypeDescription', label: 'Format'
     config.add_facet_field 'pubDate', label: 'Publication Date', single: true
     config.add_facet_field 'authors', label: 'Author', limit: 20, index_range: 'A'..'Z'
-    config.add_facet_field 'pubName', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
+    config.add_facet_field 'pubNameFacet', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'affiliateAuthorsDeptName', label: 'Department', limit: true
 
     # config.add_facet_field 'lc_1letter_facet', label: 'Call Number'
