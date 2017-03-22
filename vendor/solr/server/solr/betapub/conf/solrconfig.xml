@@ -783,11 +783,11 @@
        </str>
 
        <str name="author_qf">
-         authors^2000
+         authorsSearch^2000
        </str>
 
        <str name="author_pf">
-         authors^2000
+         authorsSearch^2000
        </str>
 
        <str name="title_qf">
