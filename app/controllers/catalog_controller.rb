@@ -72,7 +72,7 @@ class CatalogController < ApplicationController
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
     config.add_facet_field 'docTypeDescription', label: 'Format'
-    config.add_facet_field 'pubDate', label: 'Publication Date', single: true, limit: 20
+    config.add_facet_field 'pubDate', label: 'Publication Date', single: true, limit: 20, :date => { :format => :date_month_year_concise }
     config.add_facet_field 'authors', label: 'Author', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'pubNameFacet', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'affiliateAuthorsDeptName', label: 'Department', limit: true
