@@ -14,6 +14,9 @@ set :deploy_user, 'swadm'
 # set :deploy_to, "/var/www/my_app_name"
 set :deploy_to, "/swadm/usr/local/#{fetch(:application)}"
 
+# Needed for Passenger 5+
+set :passenger_restart_with_touch, true
+
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
@@ -44,7 +47,7 @@ namespace :deploy do
     on roles(:app) do
       # Here we can do anything such as:
       within release_path do
-        execute :rake, 'sitemap:refresh', "RAILS_ENV=#{fetch(:stage)}"
+        # .....
       end
     end
   end
