@@ -12,5 +12,5 @@
     - Autosuggest __Works, could be better__
     - spellcheck
 - Sort
-    - Author sort is totally broken
-    - Title sort doesn't work as expected
+    - Author sort is totally broken __Feature removed (we don't think it makes sense in this context)__
+    - Title sort doesn't work as expected __Fixed__
