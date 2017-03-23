@@ -12,11 +12,11 @@ en:
       next: 'Next &raquo;'
 
   blacklight:
-    application_name: 'Blocklight'
+    application_name: 'Blacklight'
 
     header_links:
       login: 'Login'
-      logout: 'Log Out'
+      logout: 'Logout'
       bookmarks: 'Bookmarks'
       saved_searches: 'Saved Searches'
       search_history: 'History'
@@ -24,9 +24,6 @@ en:
     welcome: 'Welcome!'
     and: 'and'
     or: 'or'
-
-    modal:
-      close: "Close"
 
     bookmarks:
       title: 'Bookmarks'
@@ -86,7 +83,7 @@ en:
 
     tools:
       title: 'Tools'
-      citation: 'Cite'
+      citation: '<span class="glyphicon glyphicon-eye-open"></span> Cite'
       email: 'Email'
       sms: 'SMS This'
       clear: 'Clear'
@@ -215,12 +212,13 @@ en:
       fields:
         default: 'Keyword'
       bookmarks:
-        present: "In Bookmarks"
-        absent: "Bookmark"
+        present: 'In Bookmarks! YAY!'
+        present_html: '<span class="glyphicon glyphicon-bookmark " aria-hidden="true"></span>'
+        absent: "Bookmark!"
         inprogress: "Saving..."
       zero_results:
-        title: "No results found for your search"
-        modify_search: "Try modifying your search"
+        title: "Still haven't found what you're looking for?"
+        modify_search: "Try searching for something better."
         use_fewer_keywords: "Use fewer keywords to start, then refine your search using the links on the left."
         search_fields: "you searched by %{search_fields}"
         search_everything: "try searching everything"
