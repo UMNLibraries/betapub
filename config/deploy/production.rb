@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 server 'betapub-prd.lib.umn.edu', user: fetch(:deploy_user), roles: %w{app db web}
 
-set :rails_env, 'production'
+set :rails_env, 'development'
 
 # role-based syntax
 # ==================
