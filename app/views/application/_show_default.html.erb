@@ -1,10 +1,26 @@
 <% doc_presenter = show_presenter(document) %>
 <%# default partial to display solr document fields in catalog show view -%>
-<dl class="dl-horizontal  dl-invert">
+<h4><span class="blacklight-doctypedescription"><%= doc_presenter.field_value "docTypeDescription" %></span></h4>
+
+<dl class="row dl-invert">
+	    <dt class="blacklight-authors col-md-3">Author(s):</dt>
+	    <dd class="blacklight-authors col-md-9"><%= doc_presenter.field_value "authors" %></dd>
+        <dt class="blacklight-pubname col-md-3">Published in:</dt>
+        <dd class="blacklight-pubname col-md-9"><%= doc_presenter.field_value "pubName" %></dd>
+        <dt class="blacklight-pmid col-md-3">PubMed ID:</dt>
+        <dd class="blacklight-pmid col-md-9"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd>
+</dl>
+
+<p>CUSTOM _SHOW STUFF UP HERE</p>
+
+<hr />
+<p>STANDARD _SHOW STUFF DOWN HERE</p>
+
+<dl class="row dl-invert">
   <% document_show_fields(document).each do |field_name, field| -%>
     <% if should_render_show_field? document, field %>
-	    <dt class="blacklight-<%= field_name.parameterize %>"><%= render_document_show_field_label document, field: field_name %></dt>
-	    <dd class="blacklight-<%= field_name.parameterize %>"><%= doc_presenter.field_value field_name %></dd>
+	    <dt class="blacklight-<%= field_name.parameterize %> col-md-3"><%= render_document_show_field_label document, field: field_name %></dt>
+	    <dd class="blacklight-<%= field_name.parameterize %> col-md-9"><%= doc_presenter.field_value field_name %></dd>
     <% end -%>
   <% end -%>
 </dl>

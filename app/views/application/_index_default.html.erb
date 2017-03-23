@@ -5,7 +5,7 @@
    <div class="glyph fs1 pull-right">
             <div class="clearfix">
               <% formaticon = doc_presenter.field_value "docTypeDescription"
-                 formaticon.foreign_key %>
+                 formaticon = formaticon.gsub(/\s+/, "") %>
                 <svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
             </div>
         </div>

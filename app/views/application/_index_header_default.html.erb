@@ -1,3 +1,4 @@
+<% doc_presenter = index_presenter(document) %>
 <%# header bar for doc items in index view -%>
 <div class="documentHeader row">
   <%# main title container for doc partial view
@@ -15,7 +16,7 @@
         <%= t('blacklight.search.documents.counter', counter: counter) %>
       </span>
     <% end %>
-    <%= link_to_document document, document_show_link_field(document), counter: counter %>
+    <%= link_to_document document, doc_presenter.field_value("pubTitleDisplay"), counter: counter %>
   </h3>
 
   <%= document_actions %>
