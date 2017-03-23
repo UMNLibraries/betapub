@@ -21,3 +21,6 @@
 
 en:
   hello: "Hello world"
+  time:
+    formats:
+      date_month_year_concise: '%Y-%m-%d'

@@ -72,9 +72,9 @@ class CatalogController < ApplicationController
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
     config.add_facet_field 'docTypeDescription', label: 'Format'
-    config.add_facet_field 'pubDate', label: 'Publication Date', single: true
+    config.add_facet_field 'pubDate', label: 'Publication Date', single: true, limit: 20, :date => { :format => :date_month_year_concise }
     config.add_facet_field 'authors', label: 'Author', limit: 20, index_range: 'A'..'Z'
-    config.add_facet_field 'pubName', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
+    config.add_facet_field 'pubNameFacet', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'affiliateAuthorsDeptName', label: 'Department', limit: true
 
     # config.add_facet_field 'lc_1letter_facet', label: 'Call Number'
@@ -147,7 +147,7 @@ class CatalogController < ApplicationController
     # case for a BL "search field", which is really a dismax aggregate
     # of Solr search fields.
 
-    config.add_search_field('pubTitleIndex') do |field|
+    config.add_search_field('pubTitleIndex', label: 'Title') do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = { :'spellcheck.dictionary' => 'pubTitleIndex' }
 
@@ -161,7 +161,7 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('authors') do |field|
+    config.add_search_field('authorsSearch', label: 'Author') do |field|
       field.solr_parameters = { :'spellcheck.dictionary' => 'authors' }
       field.solr_local_parameters = {
         qf: '$author_qf',
