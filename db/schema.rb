@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170320145525) do
+ActiveRecord::Schema.define(version: 20170323151403) do
+
+  create_table "authors", force: :cascade do |t|
+    t.string   "internet_id",      null: false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "tenure_status"
+    t.string   "scopus_author_id"
+    t.integer  "author_position"
+    t.integer  "hindex"
+    t.string   "dept_id"
+    t.string   "dept_name"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.index ["internet_id"], name: "index_authors_on_internet_id", unique: true
+  end
 
   create_table "bookmarks", force: :cascade do |t|
     t.integer  "user_id",       null: false
