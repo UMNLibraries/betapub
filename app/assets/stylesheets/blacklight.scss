@@ -17,7 +17,8 @@
 @import 'blacklight_marc';
 
 .blacklight-cited {
-  color:$navbar-inverse-bg;
+  /*color:$navbar-inverse-bg;*/
+  font-style: italic;
 }
 
 #documents .doc-title-heading {font-size:150%;margin-bottom:0;}
