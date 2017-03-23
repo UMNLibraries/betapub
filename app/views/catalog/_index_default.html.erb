@@ -1,8 +1,9 @@
 <% doc_presenter = index_presenter(document) %>
 <%# default partial to display solr document fields in catalog index view -%>
 <div class="document-metadata row">
- <h3><%= doc_presenter.field_value "title_display" %></h3>
- <span class="pull-right"><%= doc_presenter.field_value "docTypeDescription" %></span>
- <p><span class="blacklight-authors"><%= doc_presenter.field_value "authors" %><br />
- <p class="blacklight-cited">Published: <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %></p></p>
+ <div class="col-md-12">
+ <p><span class="blacklight-authors"><%= doc_presenter.field_value "authors" %></p>
+ <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %>
+</p>
+</div>
 </div>
