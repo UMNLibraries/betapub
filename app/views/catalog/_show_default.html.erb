@@ -6,9 +6,11 @@
 	    <dt class="blacklight-authors col-md-2">Author(s):</dt>
 	    <dd class="blacklight-authors col-md-10"><%= doc_presenter.field_value "authors" %></dd>
         <dt class="blacklight-pubname col-md-2">Published in:</dt>
-        <dd class="blacklight-pubname col-md-10"><%= doc_presenter.field_value "pubName" %><% unless (doc_presenter.field_value "volume").empty? %>, Vol. <%= doc_presenter.field_value "volume" %><% end -%><% unless (doc_presenter.field_value "issue").empty? %>, Issue <%= doc_presenter.field_value "issue" %><% end -%></dd>
+        <dd class="blacklight-pubname col-md-10"><%= doc_presenter.field_value "pubName" %><% unless (doc_presenter.field_value "volume").empty? %>, Vol. <%= doc_presenter.field_value "volume" %><% end -%><% unless (doc_presenter.field_value "issue").empty? %>, Issue <%= doc_presenter.field_value "issue" %><% end -%><% unless (doc_presenter.field_value "pageRange").empty? %>, pp. <%= doc_presenter.field_value "pageRange" %><% end -%></dd>
         <% unless (doc_presenter.field_value "pmid").empty? %><dt class="blacklight-pmid col-md-2">PubMed ID:</dt>
         <dd class="blacklight-pmid col-md-10"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd><% end -%>
+        <% unless (doc_presenter.field_value "scopus_eid").empty? %><dt class="blacklight-scopus_eid col-md-2">Scopus ID:</dt>
+        <dd class="blacklight-scopus_eid col-md-10"><a href="https://www.scopus.com/record/display.uri?eid=<%= doc_presenter.field_value "scopus_eid" %>&origin=resultslist"><%= doc_presenter.field_value "scopus_eid" %></a></dd><% end -%>
 </dl>
 
 <p>CUSTOM _SHOW STUFF UP HERE^</p>
