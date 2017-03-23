@@ -21,7 +21,6 @@
 @import 'blacklight_marc';
 
 .blacklight-cited {
-  /*color:$navbar-inverse-bg;*/
   font-style: italic;
 }
 
@@ -29,7 +28,7 @@
 #documents .doc-title-heading {font-size:150%;margin-bottom:0;}
 
 #header-navbar {
-  a {color: #FFDE7A;}
+  a {color: #fff;}
   .navbar-brand {  /* The main logo image for the Blacklight instance */
     width: 290px;
     @if $logo-image {
@@ -58,4 +57,3 @@ h1 {font-size: 24px;}
 .fs1 {
   font-size: 32px;
 }
-
