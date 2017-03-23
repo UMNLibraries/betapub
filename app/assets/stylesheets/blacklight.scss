@@ -18,6 +18,11 @@
 @import 'blacklight/blacklight';
 @import 'blacklight_marc';
 
+.blacklight-cited {
+  /*color:$navbar-inverse-bg;*/
+  font-style: italic;
+}
+
 
 #documents .doc-title-heading {font-size:150%;margin-bottom:0;}
 
@@ -32,4 +37,22 @@
   }
 }
 
+
 h1 {font-size: 24px;}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.fs0 {
+  font-size: 16px;
+}
+.fs1 {
+  font-size: 32px;
+}
+
