@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :authors, param: :internet_id
-  
   mount Blacklight::Engine => '/'
   Blacklight::Marc.add_routes(self)
   root to: "catalog#index"
@@ -10,6 +8,9 @@ Rails.application.routes.draw do
   resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
     concerns :searchable
   end
+
+  get '/authors/facet/:id', to: 'authors#facet'
+  resources :authors, param: :internet_id
 
   devise_for :users
   concern :exportable, Blacklight::Routes::Exportable.new
