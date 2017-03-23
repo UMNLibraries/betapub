@@ -11,6 +11,8 @@
         <dd class="blacklight-pmid col-md-10"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd><% end -%>
         <% unless (doc_presenter.field_value "scopus_eid").empty? %><dt class="blacklight-scopus_eid col-md-2">Scopus ID:</dt>
         <dd class="blacklight-scopus_eid col-md-10"><a href="https://www.scopus.com/record/display.uri?eid=<%= doc_presenter.field_value "scopus_eid" %>&origin=resultslist"><%= doc_presenter.field_value "scopus_eid" %></a></dd><% end -%>
+        <% unless (doc_presenter.field_value "doi").empty? %><dt class="blacklight-doi col-md-2">DOI:</dt>
+        <dd class="blacklight-doi col-md-10"><a href="https://doi.org/<%= doc_presenter.field_value "doi" %>"><%= doc_presenter.field_value "doi" %></a></dd><% end -%>
 </dl>
 
 <p>CUSTOM _SHOW STUFF UP HERE^</p>
