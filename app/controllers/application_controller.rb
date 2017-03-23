@@ -4,4 +4,10 @@ class ApplicationController < ActionController::Base
   layout 'blacklight'
 
   protect_from_forgery with: :exception
+
+  before_filter :prepend_view_paths
+
+  def prepend_view_paths
+   # prepend_view_path "app/views/catalog/"
+  end
 end

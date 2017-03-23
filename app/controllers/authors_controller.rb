@@ -12,19 +12,7 @@ class AuthorsController < ApplicationController
   # GET /authors/1
   # GET /authors/1.json
   def show
-    # Obtain list of publication here
-    # Method here
-    # Something like: params[:fq] = "affiliateAuthorsInternetId:andrews"
-
-    logger.debug("\n\nPARAMS: #{params.inspect}\n\n")
-
-    params[:f] ||= {}
-    params[:f]['affiliateAuthorsInternetId'] = []
-    params[:f]['affiliateAuthorsInternetId'] << @author.internet_id
-
-    logger.debug("\n\nAUTH PARAMS: #{params.inspect}\n\n")
-
-    (@response, @document_list) = search_results(params)
+    (@response, @document_list) = search_results(set_author_query(params))
   end
 
   # GET /authors/new
@@ -85,5 +73,12 @@ class AuthorsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def author_params
       params.require(:author).permit(:fq, :internet_id, :first_name, :last_name, :tenure_status, :scopus_author_id, :author_position, :hindex, :dept_id, :dept_name)
+    end
+
+    def set_author_query(params)
+      params[:f] ||= {}
+      params[:f]['affiliateAuthorsInternetId'] = []
+      params[:f]['affiliateAuthorsInternetId'] << @author.internet_id
+      params
     end
 end
