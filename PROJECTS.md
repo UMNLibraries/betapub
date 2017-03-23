@@ -6,9 +6,9 @@
     - pubName __Works__
     - authors __Works__
 - Facet fixes
-    - date (display)
+    - date (display) __Stolen by UI group :-)__
     - pubName (whole titles vs tokenized) __DONE!__
 - Search
-    - Autosuggest
+    - Autosuggest __Works, could be better__
     - spellcheck
 
