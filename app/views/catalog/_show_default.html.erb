@@ -6,13 +6,12 @@
 	    <dt class="blacklight-authors col-md-3">Author(s):</dt>
 	    <dd class="blacklight-authors col-md-9"><%= doc_presenter.field_value "authors" %></dd>
         <dt class="blacklight-pubname col-md-3">Published in:</dt>
-        <dd class="blacklight-pubname col-md-9"><%= doc_presenter.field_value "pubName" %></dd>
+        <dd class="blacklight-pubname col-md-9"><%= doc_presenter.field_value "pubName" %><%if doc_presenter.field_value "volume" %>, Vol. <%= doc_presenter.field_value "volume" %><%end -%><%if doc_presenter.field_value "issue" %>, Issue <%= doc_presenter.field_value "issue" %><%end -%></dd>
         <dt class="blacklight-pmid col-md-3">PubMed ID:</dt>
         <dd class="blacklight-pmid col-md-9"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd>
 </dl>
 
 <p>CUSTOM _SHOW STUFF UP HERE</p>
-
 <hr />
 <p>STANDARD _SHOW STUFF DOWN HERE</p>
 
