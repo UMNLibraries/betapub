@@ -7,8 +7,10 @@
   $btn-default-border: #FFDE7A;
   $btn-primary-color: #FFDE7A;
   $btn-primary-bg: #7a0019;
-  $state-success-text: #FFB71E;
+  $state-success-text: #900021;
   $brand-danger: #900021;
+  $pagination-active-bg: #FFDE7A;
+  $pagination-active-border: transparent;
 
 
 @import 'bootstrap-sprockets';
@@ -42,11 +44,12 @@ h1 {font-size: 24px;}
 
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
   stroke-width: 0;
   stroke: currentColor;
-  fill: currentColor;
+  fill: $text-muted;
+  padding-right: 10px;
 }
 
 .fs0 {
