@@ -7,6 +7,8 @@
   $btn-default-border: #FFDE7A;
   $btn-primary-color: #FFDE7A;
   $btn-primary-bg: #7a0019;
+  $state-success-text: #FFB71E;
+  $brand-danger: #900021;
 
 
 @import 'bootstrap-sprockets';
@@ -16,9 +18,6 @@
 @import 'blacklight/blacklight';
 @import 'blacklight_marc';
 
-.blacklight-cited {
-  color:green;
-}
 
 #documents .doc-title-heading {font-size:150%;margin-bottom:0;}
 
@@ -32,3 +31,5 @@
     }
   }
 }
+
+h1 {font-size: 24px;}
