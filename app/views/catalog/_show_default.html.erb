@@ -61,18 +61,16 @@
 </defs>
 </svg>
 
-
-
 <% doc_presenter = show_presenter(document) %>
 <%# default partial to display solr document fields in catalog show view -%>
-<h4><span class="blacklight-doctypedescription"><%= doc_presenter.field_value "docTypeDescription" %></span></h4>
-<div class="glyph fs1 pull-right">
+<div class="glyph fs1 pull-left">
          <div class="clearfix">
            <% formaticon = doc_presenter.field_value "docTypeDescription"
               formaticon = formaticon.gsub(/\s+/, "") %>
              <svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
          </div>
- </div>
+ <h4><span class="blacklight-doctypedescription"><%= doc_presenter.field_value "docTypeDescription" %></span></h4></div>
+ 
 
 <dl class="row dl-invert">
 	    <dt class="blacklight-authors col-md-2">Author(s):</dt>
