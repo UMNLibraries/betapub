@@ -137,7 +137,8 @@
     <field name="authors" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="authorsSearch" type="text_general" indexed="true" stored="false" required="false" multiValued="true" />
     <field name="affiliateAuthors" type="string" indexed="false" stored="true" required="false" multiValued="true" />
-    <field name="affiliateAuthorsDeptId" type="string" indexed="false" stored="true" required="false" multiValued="true" />
+    <field name="affiliateAuthorsInternetId" type="string" indexed="true" stored="true" required="false" multiValued="true" />
+    <field name="affiliateAuthorsDeptId" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="affiliateAuthorsDeptName" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="generalSearch" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
@@ -265,13 +266,13 @@
         <filter class="solr.TrimFilterFactory" />
         <!-- The PatternReplaceFilter gives you the flexibility to use
              Java Regular expression to replace any sequence of characters
-             matching a pattern with an arbitrary replacement string, 
+             matching a pattern with an arbitrary replacement string,
              which may include back references to portions of the original
              string matched by the pattern.
-             
+
              See the Java Regular Expression documentation for more
              information on pattern and replacement string syntax.
-             
+
              http://java.sun.com/j2se/1.5.0/docs/api/java/util/regex/package-summary.html
           -->
         <filter class="solr.PatternReplaceFilterFactory"
