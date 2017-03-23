@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:UMNLibraries/betapub.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-set :branch, 'deploy'
+set :branch, fetch(:branch, 'deploy')
 
 set :deploy_user, 'swadm'
 
