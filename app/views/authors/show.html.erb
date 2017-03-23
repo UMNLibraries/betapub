@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Internet:</strong>
+  <%= @author.internet_id %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @author.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @author.last_name %>
+</p>
+
+<p>
+  <strong>Tenure status:</strong>
+  <%= @author.tenure_status %>
+</p>
+
+<p>
+  <strong>Scopus author:</strong>
+  <%= @author.scopus_author_id %>
+</p>
+
+<p>
+  <strong>Author position:</strong>
+  <%= @author.author_position %>
+</p>
+
+<p>
+  <strong>Hindex:</strong>
+  <%= @author.hindex %>
+</p>
+
+<p>
+  <strong>Dept:</strong>
+  <%= @author.dept_id %>
+</p>
+
+<p>
+  <strong>Dept name:</strong>
+  <%= @author.dept_name %>
+</p>
+
+<%= link_to 'Edit', edit_author_path(@author) %> |
+<%= link_to 'Back', authors_path %>

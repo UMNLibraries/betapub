@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :authors
   mount Blacklight::Engine => '/'
   Blacklight::Marc.add_routes(self)
   root to: "catalog#index"
