@@ -187,7 +187,6 @@ class CatalogController < ApplicationController
     # except in the relevancy case).
     config.add_sort_field 'score desc, pubDate desc, pubTitleIndex asc', label: 'relevance'
     config.add_sort_field 'pubDate desc, pubTitleIndex asc', label: 'year'
-    config.add_sort_field 'authors asc, pubTitleIndex asc', label: 'author'
     config.add_sort_field 'pubTitleIndex asc, pubDate desc', label: 'title'
 
     # If there are more than this many search results, no spelling ("did you

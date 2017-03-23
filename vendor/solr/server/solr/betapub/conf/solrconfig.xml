@@ -1492,6 +1492,20 @@
       <str name="buildOnCommit">true</str>
       <str name="field">suggest</str>
     </lst>
+     <lst name="suggester">
+      <str name="name">authorSuggester</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">textSuggest</str>
+      <str name="buildOnCommit">true</str>
+      <str name="field">authorsSearch</str>
+    </lst>
+     <lst name="suggester">
+      <str name="name">titleSuggester</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">textSuggest</str>
+      <str name="buildOnCommit">true</str>
+      <str name="field">pubTitleIndex</str>
+    </lst>
   </searchComponent>
 
   <requestHandler name="/suggest" class="solr.SearchHandler" startup="lazy">
