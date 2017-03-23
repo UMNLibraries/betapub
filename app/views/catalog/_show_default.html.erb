@@ -10,7 +10,12 @@
         <dt class="blacklight-pmid col-md-3">PubMed ID:</dt>
         <dd class="blacklight-pmid col-md-9"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd>
 </dl>
+
+<p>CUSTOM _SHOW STUFF UP HERE</p>
+
 <hr />
+<p>STANDARD _SHOW STUFF DOWN HERE</p>
+
 <dl class="row dl-invert">
   <% document_show_fields(document).each do |field_name, field| -%>
     <% if should_render_show_field? document, field %>
