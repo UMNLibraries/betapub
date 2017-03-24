@@ -1,24 +1,58 @@
-<% doc_presenter = show_presenter(document) %>
+<%
+doc_presenter = show_presenter(document)
+fields = Hash.new
+[
+  'docTypeDescription',
+  'authors',
+  'pubName',
+  'volume',
+  'pmid',
+  'issue',
+  'pageRange',
+  'scopus_eid',
+  'doi'
+].each do |field|
+  fields[field] = (doc_presenter.field_value(field)).empty? ? nil : doc_presenter.field_value(field) 
+end
+%>
 <%# default partial to display solr document fields in catalog show view -%>
 <div>
-    <div class="glyph fs1 pull-right">
-         <div class="clearfix">
-           <% formaticon = doc_presenter.field_value "docTypeDescription"
-              formaticon = formaticon.gsub(/\s+/, "") %>
-             <svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
-         </div>
-     </div>
-     <%= render_document_heading(document, :tag => :h1) %>
+  <div class="glyph fs1 pull-right">
+    <div class="clearfix">
+    <% formaticon = fields['docTypeDescription']
+       formaticon = formaticon.gsub(/\s+/, "") %>
+      <svg class="icon icon-<%= formaticon %>" aria-hidden="true" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="<%= fields['docTypeDescription'] %>">
+        <use xlink:href="#icon-<%= formaticon %>"></use>
+      </svg><span class="sr-only"> <%= fields['docTypeDescription'] %></span>
+    </div>
+  </div>
+  <%= render_document_heading(document, :tag => :h1) %>
 </div>
 <dl class="row dl-invert">
-	    <dt class="blacklight-authors col-md-2">Author(s):</dt>
-	    <dd class="blacklight-authors col-md-10"><%= doc_presenter.field_value "authors" %></dd>
-        <dt class="blacklight-pubname col-md-2">Published in:</dt>
-        <dd class="blacklight-pubname col-md-10"><%= doc_presenter.field_value "pubName" %><% unless (doc_presenter.field_value "volume").empty? %>, Vol. <%= doc_presenter.field_value "volume" %><% end -%><% unless (doc_presenter.field_value "issue").empty? %>, Issue <%= doc_presenter.field_value "issue" %><% end -%><% unless (doc_presenter.field_value "pageRange").empty? %>, pp. <%= doc_presenter.field_value "pageRange" %><% end -%></dd>
-        <% unless (doc_presenter.field_value "pmid").empty? %><dt class="blacklight-pmid col-md-2">PubMed ID:</dt>
-        <dd class="blacklight-pmid col-md-10"><a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= doc_presenter.field_value "pmid" %>"><%= doc_presenter.field_value "pmid" %></a></dd><% end -%>
-        <% unless (doc_presenter.field_value "scopus_eid").empty? %><dt class="blacklight-scopus_eid col-md-2">Scopus ID:</dt>
-        <dd class="blacklight-scopus_eid col-md-10"><a href="https://www.scopus.com/record/display.uri?eid=<%= doc_presenter.field_value "scopus_eid" %>&origin=resultslist"><%= doc_presenter.field_value "scopus_eid" %></a></dd><% end -%>
-        <% unless (doc_presenter.field_value "doi").empty? %><dt class="blacklight-doi col-md-2">DOI:</dt>
-        <dd class="blacklight-doi col-md-10"><a href="https://doi.org/<%= doc_presenter.field_value "doi" %>"><%= doc_presenter.field_value "doi" %></a></dd><% end -%>
+  <dt class="blacklight-authors col-md-2">Authors:</dt>
+  <dd class="blacklight-authors col-md-10"><%= fields['authors'] %></dd>
+  <dt class="blacklight-pubname col-md-2">Published in:</dt>
+  <dd class="blacklight-pubname col-md-10"><%= fields['pubName'] %>
+    <% if fields['volume'] %>, Vol. <%= fields['volume'] %><% end -%>
+    <% if fields['issue'] %>, Issue <%= fields['issue'] %><% end -%>
+    <% if fields['pageRange'] %>, pp. <%= fields['pageRange'] %><% end -%>
+  </dd>
+  <% if fields['pmid'] %>
+  <dt class="blacklight-pmid col-md-2">PubMed ID (modified):</dt>
+  <dd class="blacklight-pmid col-md-10">
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= fields['pmid'] %>"><%= fields['pmid'] %></a>
+  </dd>
+  <% end -%>
+  <% if fields['scopus_eid'] %>
+  <dt class="blacklight-scopus_eid col-md-2">Scopus ID:</dt>
+  <dd class="blacklight-scopus_eid col-md-10">
+    <a href="https://www.scopus.com/record/display.uri?eid=<%= fields['scopus_eid'] %>&origin=resultslist"><%= fields['scopus_eid'] %></a>
+  </dd>
+  <% end -%>
+  <% if fields['doi'] %>
+  <dt class="blacklight-doi col-md-2">DOI:</dt>
+  <dd class="blacklight-doi col-md-10">
+    <a href="https://doi.org/<%= fields['doi'] %>"><%= fields['doi'] %></a>
+  </dd>
+  <% end -%>
 </dl>
