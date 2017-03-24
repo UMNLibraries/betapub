@@ -6,11 +6,11 @@
             <div class="clearfix">
               <% formaticon = doc_presenter.field_value "docTypeDescription"
                  formaticon = formaticon.gsub(/\s+/, "") %>
-                <svg class="icon icon-<%= formaticon %>" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="<%= doc_presenter.field_value "docTypeDescription" %>"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
+                <button class="btn-no-style" data-toggle="tooltip" data-trigger="click hover" data-placement="bottom" title="<%= doc_presenter.field_value "docTypeDescription" %>"><svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span></button>
             </div>
         </div>
  <p><span class="blacklight-authors"><%= doc_presenter.field_value "authors" %></p>
- <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %>. Cited by <%= doc_presenter.field_value "citedByCount" %>.
+ <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %>.<% unless (doc_presenter.field_value "citedByCount").empty? %> Cited by <%= doc_presenter.field_value "citedByCount" %>.<% end -%>
 </p>
 </div>
 </div>
