@@ -10,6 +10,7 @@
            if (response.bookmarks) {
              $('[data-role=bookmark-counter]').text(response.bookmarks.count);
            }
+
          }
       });
     };

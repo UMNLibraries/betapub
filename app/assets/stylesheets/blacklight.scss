@@ -59,3 +59,20 @@ h1 {font-size: 24px;}
 .fs1 {
   font-size: 32px;
 }
+
+
+.toggle_bookmark {
+  z-index: 5;
+  input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+}
+ 
+.rise {top: -17px;}
+
+.present {background-color:$navbar-inverse-bg;}
+
+.absent {background-color:$link-color;}
+
+
