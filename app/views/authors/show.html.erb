@@ -63,24 +63,16 @@
 
 <p id="notice"><%= notice %></p>
 
+<%= link_to '<< Back', authors_path %>
+
+<h2>
+  <%= @author.first_name %>
+  <%= @author.last_name %>
+</h2>
+
 <p>
   <strong>Internet:</strong>
-  <%= @author.internet_id %>
-</p>
-
-<p>
-  <strong>First name:</strong>
-  <%= @author.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @author.last_name %>
-</p>
-
-<p>
-  <strong>Tenure status:</strong>
-  <%= @author.tenure_status %>
+  <%= link_to @author.internet_id, author_path(@author.internet_id) %>
 </p>
 
 <p>
@@ -89,17 +81,10 @@
 </p>
 
 <p>
-  <strong>Dept:</strong>
-  <%= @author.dept_id %>
-</p>
-
-<p>
-  <strong>Dept name:</strong>
+  <strong>Department:</strong>
   <%= @author.dept_name %>
+  (<%= @author.dept_id %>)
 </p>
-
-<%= link_to 'Edit', edit_author_path(@author) %> |
-<%= link_to 'Back', authors_path %>
 
 <div id="sidebar" class="<%= sidebar_classes %>">
   <%= render 'search_sidebar' %>
