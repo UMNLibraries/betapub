@@ -5,7 +5,7 @@
          <div class="clearfix">
            <% formaticon = doc_presenter.field_value "docTypeDescription"
               formaticon = formaticon.gsub(/\s+/, "") %>
-             <svg class="icon icon-<%= formaticon %>" aria-hidden="true" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="<%= doc_presenter.field_value "docTypeDescription" %>"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
+             <svg class="icon icon-<%= formaticon %>" aria-hidden="true" aria-hidden="true" data-toggle="tooltip" data-trigger="click hover" data-placement="bottom" title="<%= doc_presenter.field_value "docTypeDescription" %>"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
          </div>
      </div>
      <%= render_document_heading(document, :tag => :h1) %>
