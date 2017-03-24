@@ -14,7 +14,7 @@
 # 3) Find or create an Author entry for each affiliate
 # 4) Profit!
 
-publication_data = JSON.parse(File.read("#{Rails.root.join('data', 'publication-data-limited.json')}"))
+publication_data = JSON.parse(File.read("#{Rails.root.join('data', 'publication-data.json')}"))
 publication_data.each do |publication|
   publication['affiliateAuthors'].each do |author|
     author_data = JSON.parse(author)
