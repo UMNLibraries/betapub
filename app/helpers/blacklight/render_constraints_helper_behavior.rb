@@ -54,7 +54,7 @@ module Blacklight::RenderConstraintsHelperBehavior
       localized_params = ActionController::Parameters.new(localized_params)
     end
 
-    options = localized_params.merge(q: nil, action: 'index')
+    options = localized_params.merge(q: nil)
     options.permit!
     scope.url_for(options)
   end
