@@ -12,6 +12,8 @@ class AuthorsController < ApplicationController
   # GET /authors/1.json
   def show
     (@response, @document_list) = search_results(set_author_query(params))
+
+    # Remove the header search form, to prefer the search within author form
     @no_header_search = true
   end
 
