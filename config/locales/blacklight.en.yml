@@ -83,7 +83,7 @@ en:
 
     tools:
       title: 'Tools'
-      citation: '<span class="glyphicon glyphicon-eye-open"></span> Cite'
+      citation: 'Cite'
       email: 'Email'
       sms: 'SMS This'
       clear: 'Clear'

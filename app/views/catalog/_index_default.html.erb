@@ -6,7 +6,7 @@
             <div class="clearfix">
               <% formaticon = doc_presenter.field_value "docTypeDescription"
                  formaticon = formaticon.gsub(/\s+/, "") %>
-                <svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
+                <button type="button" class="btn-no-style" data-toggle="tooltip" data-trigger="click hover" data-placement="bottom" title="<%= doc_presenter.field_value "docTypeDescription" %>"><svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span></button>
             </div>
         </div>
  <p><span class="blacklight-authors"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></p>
