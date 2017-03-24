@@ -73,11 +73,11 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'docTypeDescription', label: 'Format'
     config.add_facet_field 'pubDate', label: 'Publication Date', single: true, limit: 20, :date => { :format => :date_month_year_concise }
-    config.add_facet_field 'pubDateRange', label: 'Published Between', :query => {
-       :years_1 => { label: 'within last year', fq: "pubDate:[NOW/YEAR-1YEARS TO *]"},
-       :years_5 => { label: 'within 5 Years', fq: "pubDate:[NOW/YEAR-5YEARS TO *]"},
-       :years_10 => { label: 'within 10 Years', fq: "pubDate:[NOW/YEAR-10YEARS TO *]" },
-       :years_20 => { label: 'within 20 Years', fq: "pubDate:[NOW/YEAR-20YEARS TO *]"},
+    config.add_facet_field 'pubDateRange', label: 'Published Within', :query => {
+       :years_1 => { label: 'last year', fq: "pubDate:[NOW/YEAR-1YEARS TO *]"},
+       :years_5 => { label: 'last 5 Years', fq: "pubDate:[NOW/YEAR-5YEARS TO *]"},
+       :years_10 => { label: 'last 10 Years', fq: "pubDate:[NOW/YEAR-10YEARS TO *]" },
+       :years_20 => { label: 'last 20 Years', fq: "pubDate:[NOW/YEAR-20YEARS TO *]"},
      }
     config.add_facet_field 'authors', label: 'Author', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'pubNameFacet', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
