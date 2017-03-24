@@ -83,7 +83,7 @@ en:
 
     tools:
       title: 'Tools'
-      citation: '<img src="http://placekitten.com/g/200/300" /> Cite'
+      citation: 'Cite'
       email: 'Email'
       sms: 'SMS This'
       clear: 'Clear'
