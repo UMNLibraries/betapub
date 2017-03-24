@@ -2,13 +2,11 @@ class ApplicationController < ActionController::Base
   # Adds a few additional behaviors into the application controller
   include Blacklight::Controller
   include Blacklight::Catalog
-  include Blacklight::Marc::Catalog
-  
+  #include Blacklight::Marc::Catalog
+
   layout 'blacklight'
 
   protect_from_forgery with: :exception
-
-  before_filter :prepend_view_paths
 
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
@@ -201,9 +199,5 @@ class ApplicationController < ActionController::Base
     # Configuration for autocomplete suggestor
     config.autocomplete_enabled = true
     config.autocomplete_path = 'suggest'
-  end
-
-  def prepend_view_paths
-   # prepend_view_path "app/views/catalog/"
   end
 end
