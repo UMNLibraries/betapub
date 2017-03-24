@@ -1,0 +1,62 @@
+<%= form_for(author) do |f| %>
+  <% if author.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
+
+      <ul>
+      <% author.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :internet_id %>
+    <%= f.text_field :internet_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tenure_status %>
+    <%= f.text_field :tenure_status %>
+  </div>
+
+  <div class="field">
+    <%= f.label :scopus_author_id %>
+    <%= f.text_field :scopus_author_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :author_position %>
+    <%= f.number_field :author_position %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hindex %>
+    <%= f.number_field :hindex %>
+  </div>
+
+  <div class="field">
+    <%= f.label :dept_id %>
+    <%= f.text_field :dept_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :dept_name %>
+    <%= f.text_field :dept_name %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
