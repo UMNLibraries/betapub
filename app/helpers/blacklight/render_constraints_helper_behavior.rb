@@ -68,7 +68,11 @@ module Blacklight::RenderConstraintsHelperBehavior
      path = controller.search_state_class.new(localized_params, blacklight_config)
      content = []
      localized_params[:f].each_pair do |facet,values|
-       content << render_filter_element(facet, values, path)
+
+       # Remove author contstraint on an author page
+       unless request.path.include?('authors') && facet == 'affiliateAuthorsInternetId'
+         content << render_filter_element(facet, values, path)
+       end
      end
 
      safe_join(content.flatten, "\n")
