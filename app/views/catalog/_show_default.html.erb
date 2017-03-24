@@ -12,7 +12,7 @@ fields = Hash.new
   'scopus_eid',
   'doi'
 ].each do |field|
-  fields[field] = (doc_presenter.field_value(field)).empty? ? nil : doc_presenter.field_value(field) 
+  fields[field] = (doc_presenter.field_value(field)).empty? ? nil : doc_presenter.field_value(field)
 end
 %>
 <%# default partial to display solr document fields in catalog show view -%>
@@ -30,7 +30,7 @@ end
 </div>
 <dl class="row dl-invert">
   <dt class="blacklight-authors col-md-2">Authors:</dt>
-  <dd class="blacklight-authors col-md-10"><%= fields['authors'] %></dd>
+  <dd class="blacklight-authors col-md-10"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></dd>
   <dt class="blacklight-pubname col-md-2">Published in:</dt>
   <dd class="blacklight-pubname col-md-10"><%= fields['pubName'] %>
     <% if fields['volume'] %>, Vol. <%= fields['volume'] %><% end -%>
