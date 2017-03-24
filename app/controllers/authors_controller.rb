@@ -1,4 +1,5 @@
 class AuthorsController < ApplicationController
+  include Blacklight::Catalog
 
   before_action :set_author, only: [:show, :edit, :update, :destroy]
 
