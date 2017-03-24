@@ -73,6 +73,12 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'docTypeDescription', label: 'Format'
     config.add_facet_field 'pubDate', label: 'Publication Date', single: true, limit: 20, :date => { :format => :date_month_year_concise }
+    config.add_facet_field 'pubDateRange', label: 'Published Within', :query => {
+       :years_1 => { label: 'last year', fq: "pubDate:[NOW/YEAR-1YEARS TO *]"},
+       :years_5 => { label: 'last 5 Years', fq: "pubDate:[NOW/YEAR-5YEARS TO *]"},
+       :years_10 => { label: 'last 10 Years', fq: "pubDate:[NOW/YEAR-10YEARS TO *]" },
+       :years_20 => { label: 'last 20 Years', fq: "pubDate:[NOW/YEAR-20YEARS TO *]"},
+     }
     config.add_facet_field 'authors', label: 'Author', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'pubNameFacet', label: 'Publication Name', limit: 20, index_range: 'A'..'Z'
     config.add_facet_field 'affiliateAuthorsDeptName', label: 'Department', limit: true
@@ -82,13 +88,6 @@ class CatalogController < ApplicationController
     # config.add_facet_field 'subject_era_facet', label: 'Era'
 
     # config.add_facet_field 'example_pivot_field', label: 'Pivot Field', :pivot => ['format', 'language_facet']
-
-    # config.add_facet_field 'example_query_facet_field', label: 'Publish Date', :query => {
-    #   :years_5 => { label: 'within 5 Years', fq: "pub_date:[#{Time.zone.now.year - 5 } TO *]" },
-    #   :years_10 => { label: 'within 10 Years', fq: "pub_date:[#{Time.zone.now.year - 10 } TO *]" },
-    #   :years_25 => { label: 'within 25 Years', fq: "pub_date:[#{Time.zone.now.year - 25 } TO *]" }
-    # }
-
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
