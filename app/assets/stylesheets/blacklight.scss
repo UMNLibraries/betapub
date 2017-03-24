@@ -24,6 +24,14 @@
   font-style: italic;
 }
 
+.btn-no-style {
+  border:none;
+  background: transparent;
+  :focus {
+    outline: 0;
+  }
+}
+
 
 #documents .doc-title-heading {font-size:150%;margin-bottom:0;}
 

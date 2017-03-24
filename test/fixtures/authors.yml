@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  internet_id: MyString
+  first_name: MyString
+  last_name: MyString
+  tenure_status: MyString
+  scopus_author_id: MyString
+  author_position: 1
+  hindex: 1
+  dept_id: MyString
+  dept_name: MyString
+
+two:
+  internet_id: MyString
+  first_name: MyString
+  last_name: MyString
+  tenure_status: MyString
+  scopus_author_id: MyString
+  author_position: 1
+  hindex: 1
+  dept_id: MyString
+  dept_name: MyString
