@@ -45,10 +45,8 @@ namespace :deploy do
 
   after :restart, :clear_cache do
     on roles(:app) do
-      # Here we can do anything such as:
-      within release_path do
-        # .....
-      end
+      execute "JAVA_HOME=/swadm/usr/java #{fetch(:release_path)}/vendor/solr/bin/solr restart -noprompt"
+      execute "JAVA_HOME=/swadm/usr/java #{fetch(:release_path)}/vendor/solr/bin/post -c betapub #{fetch(:release_path)}/data/publication-data.json"
     end
   end
 

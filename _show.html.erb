@@ -1,0 +1,6 @@
+<% doc_presenter = show_presenter(document) %>
+<%# default partial to display solr document fields in catalog show view -%>
+<dl class="row dl-invert">
+	    <dt class="blacklight-authors col-md-3">Author(s)</dt>
+	    <dd class="blacklight-authors col-md-9"><%= doc_presenter.field_value "authors" %></dd>
+</dl>

@@ -16,7 +16,7 @@ en:
 
     header_links:
       login: 'Login'
-      logout: 'Log Out'
+      logout: 'Logout'
       bookmarks: 'Bookmarks'
       saved_searches: 'Saved Searches'
       search_history: 'History'
@@ -143,7 +143,7 @@ en:
     search:
       # i18n key 'title' is deprecated and will be removed in Blacklight 6.0
       title: '%{application_name} Search Results'
-      page_title: 
+      page_title:
         title: '%{constraints} - %{application_name} Search Results'
         constraint: '%{label}: %{value}'
         many_constraint_values: '%{values} selected'

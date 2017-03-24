@@ -26,9 +26,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"macom001\",\"firstName\":\"David\",\"lastName\":\"Macomber\",\"tenure_status\":\"\",\"scopus_author_id\":\"6603005226\",\"authorPosition\":1,\"hIndex\":23,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "macom001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -61,9 +58,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dasxx002\",\"firstName\":\"Anath\",\"lastName\":\"Das\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7403597151\",\"authorPosition\":4,\"hIndex\":23,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dasxx002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -100,9 +94,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":4,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mauer002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -134,9 +125,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":3,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "gilli002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -172,9 +160,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"khoru001\",\"firstName\":\"Alexander\",\"lastName\":\"Khoruts\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701627161\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "khoru001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -209,9 +194,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"semru002\",\"firstName\":\"Margaret\",\"lastName\":\"Semrud-Clikeman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701335348\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "semru002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0100"
@@ -252,16 +234,10 @@
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":2,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":6,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002",
-      "payne001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
       "Surgery"
     ]
   },
@@ -288,9 +264,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cheng002\",\"firstName\":\"Edward\",\"lastName\":\"Cheng\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201743350\",\"authorPosition\":1,\"hIndex\":22,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cheng002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0099"
@@ -324,9 +297,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"rougv001\",\"firstName\":\"Ann\",\"lastName\":\"Rougvie\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6603956216\",\"authorPosition\":2,\"hIndex\":16,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "rougv001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0084"
     ],
@@ -359,9 +329,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"verce001\",\"firstName\":\"Gregory\",\"lastName\":\"Vercellotti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004463806\",\"authorPosition\":1,\"hIndex\":60,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "verce001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -397,9 +364,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"orrxx002\",\"firstName\":\"Harry\",\"lastName\":\"Orr\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102615743\",\"authorPosition\":5,\"hIndex\":75,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "orrxx002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -434,16 +398,10 @@
       "{\"internetID\":\"camer001\",\"firstName\":\"John\",\"lastName\":\"Cameron\",\"tenure_status\":\"\",\"scopus_author_id\":\"26434640700\",\"authorPosition\":2,\"hIndex\":30,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}",
       "{\"internetID\":\"summe001\",\"firstName\":\"Carole\",\"lastName\":\"Summers\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019685\",\"authorPosition\":4,\"hIndex\":30,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "camer001",
-      "summe001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0098",
       "Z0098"
     ],
     "affiliateAuthorsDeptName": [
-      "Ophthalmology",
       "Ophthalmology"
     ]
   },
@@ -471,9 +429,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":1,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -510,9 +465,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ldrewes\",\"firstName\":\"Lester\",\"lastName\":\"Drewes\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006409762\",\"authorPosition\":6,\"hIndex\":34,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ldrewes"
-    ],
     "affiliateAuthorsDeptId": [
       "11939"
     ],
@@ -545,9 +497,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"gtracht1\",\"firstName\":\"George\",\"lastName\":\"Trachte\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004236953\",\"authorPosition\":3,\"hIndex\":17,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "gtracht1"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -582,9 +531,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":4,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -614,9 +560,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"palle001\",\"firstName\":\"Mark\",\"lastName\":\"Paller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006274988\",\"authorPosition\":1,\"hIndex\":32,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "palle001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -650,9 +593,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"odlan007\",\"firstName\":\"Rick\",\"lastName\":\"Odland\",\"tenure_status\":\"\",\"scopus_author_id\":\"6701779960\",\"authorPosition\":3,\"hIndex\":12,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "odlan007"
     ],
     "affiliateAuthorsDeptId": [
       "Z0095"
@@ -690,9 +630,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":4,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "payne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -724,9 +661,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wrigh004\",\"firstName\":\"Martha\",\"lastName\":\"Wright\",\"tenure_status\":\"\",\"scopus_author_id\":\"7401558607\",\"authorPosition\":3,\"hIndex\":14,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wrigh004"
     ],
     "affiliateAuthorsDeptId": [
       "Z0098"
@@ -761,9 +695,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ingba001\",\"firstName\":\"David\",\"lastName\":\"Ingbar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005549664\",\"authorPosition\":5,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ingba001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -800,16 +731,10 @@
       "{\"internetID\":\"bitte001\",\"firstName\":\"Peter\",\"lastName\":\"Bitterman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004816180\",\"authorPosition\":5,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"henke002\",\"firstName\":\"Craig\",\"lastName\":\"Henke\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005464084\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bitte001",
-      "henke002"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -838,9 +763,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jholy\",\"firstName\":\"Jon\",\"lastName\":\"Holy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006532530\",\"authorPosition\":1,\"hIndex\":18,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jholy"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -876,9 +798,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dasxx007\",\"firstName\":\"Gladwin\",\"lastName\":\"Das\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201816018\",\"authorPosition\":3,\"hIndex\":14,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dasxx007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -910,9 +829,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":2,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -950,9 +866,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":2,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -988,9 +901,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":3,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -1021,9 +931,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"nelse002\",\"firstName\":\"Gary\",\"lastName\":\"Nelsestuen\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006059600\",\"authorPosition\":1,\"hIndex\":36,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "nelse002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -1059,9 +966,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":5,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -1096,9 +1000,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ebner001\",\"firstName\":\"Timothy\",\"lastName\":\"Ebner\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004554313\",\"authorPosition\":5,\"hIndex\":36,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ebner001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0107"
     ],
@@ -1129,9 +1030,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"lohxx001\",\"firstName\":\"Horace\",\"lastName\":\"Loh\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35497433400\",\"authorPosition\":2,\"hIndex\":72,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lohxx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -1166,9 +1064,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kushn001\",\"firstName\":\"Matt\",\"lastName\":\"Kushner\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101995590\",\"authorPosition\":2,\"hIndex\":29,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kushn001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -1202,9 +1097,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"yeexx006\",\"firstName\":\"Douglas\",\"lastName\":\"Yee\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102066378\",\"authorPosition\":1,\"hIndex\":62,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "yeexx006"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -1235,9 +1127,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"green959\",\"firstName\":\"David\",\"lastName\":\"Greenstein\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005907396\",\"authorPosition\":2,\"hIndex\":21,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "green959"
     ],
     "affiliateAuthorsDeptId": [
       "Z0084"
@@ -1274,9 +1163,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"iberx001\",\"firstName\":\"Conrad\",\"lastName\":\"Iber\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003481514\",\"authorPosition\":5,\"hIndex\":36,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "iberx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -1307,9 +1193,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"belan001\",\"firstName\":\"Kumar\",\"lastName\":\"Belani\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35846789000\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "belan001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0088"
@@ -1345,9 +1228,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ingba001\",\"firstName\":\"David\",\"lastName\":\"Ingbar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005549664\",\"authorPosition\":5,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ingba001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -1378,9 +1258,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"orrxx002\",\"firstName\":\"Harry\",\"lastName\":\"Orr\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102615743\",\"authorPosition\":2,\"hIndex\":75,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "orrxx002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -1415,9 +1292,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hecht002\",\"firstName\":\"Stephen\",\"lastName\":\"Hecht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"36041167800\",\"authorPosition\":1,\"hIndex\":86,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hecht002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -1451,9 +1325,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":3,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "furch001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -1484,9 +1355,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":2,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "buchw001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -1520,9 +1388,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kenne001\",\"firstName\":\"William\",\"lastName\":\"Kennedy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202593564\",\"authorPosition\":2,\"hIndex\":47,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kenne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -1554,9 +1419,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jmolitor\",\"firstName\":\"Jerry\",\"lastName\":\"Molitor\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003541845\",\"authorPosition\":1,\"hIndex\":24,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jmolitor"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -1593,9 +1455,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"engel002\",\"firstName\":\"William\",\"lastName\":\"Engeland\",\"tenure_status\":\"\",\"scopus_author_id\":\"14818984700\",\"authorPosition\":1,\"hIndex\":30,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "engel002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0107"
     ],
@@ -1630,9 +1489,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"avikatz\",\"firstName\":\"Avi\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402569510\",\"authorPosition\":3,\"hIndex\":12,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "avikatz"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -1664,9 +1520,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jregal\",\"firstName\":\"Jean\",\"lastName\":\"Regal\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004040993\",\"authorPosition\":2,\"hIndex\":15,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jregal"
-    ],
     "affiliateAuthorsDeptId": [
       "11939"
     ],
@@ -1696,9 +1549,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"johns336\",\"firstName\":\"Robert\",\"lastName\":\"Johnson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7407017655\",\"authorPosition\":1,\"hIndex\":7,\"deptId\":\"Z0090\",\"deptName\":\"Family Medicine\\/Comm Health (TC)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "johns336"
     ],
     "affiliateAuthorsDeptId": [
       "Z0090"
@@ -1733,9 +1583,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hacke004\",\"firstName\":\"Perry\",\"lastName\":\"Hackett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102839403\",\"authorPosition\":3,\"hIndex\":39,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hacke004"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0084"
     ],
@@ -1769,9 +1616,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jenki002\",\"firstName\":\"Marc\",\"lastName\":\"Jenkins\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402024791\",\"authorPosition\":2,\"hIndex\":64,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jenki002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0085"
     ],
@@ -1802,9 +1646,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":2,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -1837,9 +1678,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"rosen001\",\"firstName\":\"Mark\",\"lastName\":\"Rosenberg\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402654098\",\"authorPosition\":1,\"hIndex\":33,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "rosen001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -1869,9 +1707,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -1904,9 +1739,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bendi001\",\"firstName\":\"David\",\"lastName\":\"Benditt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005315485\",\"authorPosition\":3,\"hIndex\":49,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bendi001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -1944,9 +1776,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"blaza001\",\"firstName\":\"Bruce\",\"lastName\":\"Blazar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102198392\",\"authorPosition\":5,\"hIndex\":94,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "blaza001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -1978,9 +1807,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"drwatson\",\"firstName\":\"Kathleen\",\"lastName\":\"Watson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201554470\",\"authorPosition\":2,\"hIndex\":9,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "drwatson"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -2015,9 +1841,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lande028\",\"firstName\":\"Daniel\",\"lastName\":\"Landers\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102066584\",\"authorPosition\":1,\"hIndex\":35,\"deptId\":\"Z0097\",\"deptName\":\"Obstetrics and Gynecology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lande028"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0097"
     ],
@@ -2051,10 +1874,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":3,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"truwit\",\"firstName\":\"Chip\",\"lastName\":\"Truwit\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464512200\",\"authorPosition\":1,\"hIndex\":44,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lakex009",
-      "truwit"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092",
@@ -2091,9 +1910,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hogqu001\",\"firstName\":\"Kristin\",\"lastName\":\"Hogquist\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004012127\",\"authorPosition\":1,\"hIndex\":49,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hogqu001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -2124,9 +1940,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jholy\",\"firstName\":\"Jon\",\"lastName\":\"Holy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006532530\",\"authorPosition\":1,\"hIndex\":18,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jholy"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -2165,9 +1978,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jneglia\",\"firstName\":\"Joseph\",\"lastName\":\"Neglia\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006802359\",\"authorPosition\":1,\"hIndex\":56,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jneglia"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -2198,9 +2008,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"tsaix001\",\"firstName\":\"Michael\",\"lastName\":\"Tsai\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7403551351\",\"authorPosition\":1,\"hIndex\":47,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "tsaix001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -2235,9 +2042,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hirsc005\",\"firstName\":\"Alan\",\"lastName\":\"Hirsch\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201744651\",\"authorPosition\":3,\"hIndex\":55,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hirsc005"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -2267,9 +2071,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"evers001\",\"firstName\":\"Lenore\",\"lastName\":\"Everson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003713507\",\"authorPosition\":1,\"hIndex\":10,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "evers001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -2302,9 +2103,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"gar\",\"firstName\":\"Michael\",\"lastName\":\"Garwood\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006510226\",\"authorPosition\":2,\"hIndex\":50,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "gar"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -2340,9 +2138,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jacksonb\",\"firstName\":\"Brooks\",\"lastName\":\"Jackson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35421119100\",\"authorPosition\":1,\"hIndex\":47,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jacksonb"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -2372,9 +2167,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"osbor003\",\"firstName\":\"John\",\"lastName\":\"Osborn Jr\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202260112\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "osbor003"
     ],
     "affiliateAuthorsDeptId": [
       "Z0087"
@@ -2414,9 +2206,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dpowell\",\"firstName\":\"Deborah\",\"lastName\":\"Powell\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35265232900\",\"authorPosition\":8,\"hIndex\":29,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dpowell"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -2447,9 +2236,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hebbe001\",\"firstName\":\"Robert\",\"lastName\":\"Hebbel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006964574\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hebbe001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -2483,9 +2269,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":1,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -2517,9 +2300,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":1,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -2556,9 +2336,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"sunda001\",\"firstName\":\"Sundaram\",\"lastName\":\"Ramakrishnan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"23109838600\",\"authorPosition\":2,\"hIndex\":35,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "sunda001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -2597,9 +2374,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"carso001\",\"firstName\":\"Linda\",\"lastName\":\"Carson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007050568\",\"authorPosition\":2,\"hIndex\":34,\"deptId\":\"Z0097\",\"deptName\":\"Obstetrics and Gynecology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "carso001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0097"
     ],
@@ -2634,9 +2408,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hsiao005\",\"firstName\":\"Karen\",\"lastName\":\"Ashe\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101919893\",\"authorPosition\":2,\"hIndex\":62,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hsiao005"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -2668,9 +2439,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"allen001\",\"firstName\":\"Sharon\",\"lastName\":\"Allen\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35344644000\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0090\",\"deptName\":\"Family Medicine\\/Comm Health (TC)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "allen001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0090"
@@ -2707,9 +2475,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"saer\",\"firstName\":\"Susan\",\"lastName\":\"Everson-Rose\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6602905729\",\"authorPosition\":4,\"hIndex\":46,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "saer"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -2741,9 +2506,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"iaizz001\",\"firstName\":\"Paul\",\"lastName\":\"Iaizzo\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005561758\",\"authorPosition\":1,\"hIndex\":28,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "iaizz001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -2779,18 +2541,11 @@
       "{\"internetID\":\"seaqu001\",\"firstName\":\"Elizabeth\",\"lastName\":\"Seaquist\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005013672\",\"authorPosition\":2,\"hIndex\":37,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"walse001\",\"firstName\":\"Timothy\",\"lastName\":\"Walseth\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005424273\",\"authorPosition\":3,\"hIndex\":47,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "robertso",
-      "seaqu001",
-      "walse001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092",
       "Z0086"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine",
       "Pharmacology"
     ]
@@ -2823,9 +2578,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":3,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "payne001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -2870,19 +2622,12 @@
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":8,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":11,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "chave001",
-      "gilli002",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100",
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
       "Pediatrics",
-      "Surgery",
       "Surgery"
     ]
   },
@@ -2913,9 +2658,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":6,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -2953,10 +2695,6 @@
       "{\"internetID\":\"schut004\",\"firstName\":\"Ronald\",\"lastName\":\"Schut\",\"tenure_status\":\"\",\"scopus_author_id\":\"6603970855\",\"authorPosition\":4,\"hIndex\":9,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":6,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "schut004",
-      "balfo001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0091"
@@ -2989,9 +2727,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":2,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -3033,16 +2768,10 @@
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":7,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":9,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "payne001",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
       "Surgery"
     ]
   },
@@ -3088,31 +2817,12 @@
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":13,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":3,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "nevin001",
-      "chave001",
-      "mauer002",
-      "gilli002",
-      "kasht001",
-      "payne001",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100",
-      "Z0100",
-      "Z0100",
-      "Z0103",
-      "Z0100",
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
       "Pediatrics",
-      "Pediatrics",
-      "Pediatrics",
-      "Surgery",
-      "Pediatrics",
-      "Surgery",
       "Surgery"
     ]
   },
@@ -3138,9 +2848,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":1,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -3175,9 +2882,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lohxx001\",\"firstName\":\"Horace\",\"lastName\":\"Loh\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35497433400\",\"authorPosition\":3,\"hIndex\":72,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lohxx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -3209,9 +2913,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"pollydw\",\"firstName\":\"David\",\"lastName\":\"Polly\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005632973\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "pollydw"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0099"
     ],
@@ -3242,9 +2943,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"agre0012\",\"firstName\":\"James\",\"lastName\":\"Agre\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007002790\",\"authorPosition\":1,\"hIndex\":28,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "agre0012"
     ],
     "affiliateAuthorsDeptId": [
       "Z0101"
@@ -3285,9 +2983,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":5,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "buchw001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -3318,9 +3013,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"shaines\",\"firstName\":\"Stephen\",\"lastName\":\"Haines\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102912181\",\"authorPosition\":1,\"hIndex\":37,\"deptId\":\"Z0094\",\"deptName\":\"Neurosurgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "shaines"
     ],
     "affiliateAuthorsDeptId": [
       "Z0094"
@@ -3353,9 +3045,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":3,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -3390,16 +3079,10 @@
       "{\"internetID\":\"katzx001\",\"firstName\":\"Stephen\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"36137040000\",\"authorPosition\":2,\"hIndex\":13,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}",
       "{\"internetID\":\"osbor003\",\"firstName\":\"John\",\"lastName\":\"Osborn Jr\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202260112\",\"authorPosition\":3,\"hIndex\":25,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "katzx001",
-      "osbor003"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0087",
       "Z0087"
     ],
     "affiliateAuthorsDeptName": [
-      "Integrative Biology/Physiology",
       "Integrative Biology/Physiology"
     ]
   },
@@ -3427,9 +3110,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bhering\",\"firstName\":\"Bernhard\",\"lastName\":\"Hering\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35390723800\",\"authorPosition\":3,\"hIndex\":46,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bhering"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -3467,9 +3147,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mccar001\",\"firstName\":\"James\",\"lastName\":\"Mc Carthy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402958747\",\"authorPosition\":2,\"hIndex\":63,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mccar001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -3503,9 +3180,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"wrigh004\",\"firstName\":\"Martha\",\"lastName\":\"Wright\",\"tenure_status\":\"\",\"scopus_author_id\":\"7401558607\",\"authorPosition\":1,\"hIndex\":14,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "wrigh004"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0098"
     ],
@@ -3536,9 +3210,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dasxx002\",\"firstName\":\"Anath\",\"lastName\":\"Das\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7403597151\",\"authorPosition\":2,\"hIndex\":23,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dasxx002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -3573,9 +3244,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lohxx001\",\"firstName\":\"Horace\",\"lastName\":\"Loh\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35497433400\",\"authorPosition\":3,\"hIndex\":72,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lohxx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -3608,9 +3276,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ecker001\",\"firstName\":\"Elke\",\"lastName\":\"Eckert\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102250841\",\"authorPosition\":3,\"hIndex\":38,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ecker001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -3641,9 +3306,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dlaporte\",\"firstName\":\"David\",\"lastName\":\"Laporte\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006083571\",\"authorPosition\":2,\"hIndex\":27,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dlaporte"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -3678,9 +3340,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"malabsi\",\"firstName\":\"Mustafa\",\"lastName\":\"al'Absi\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003329563\",\"authorPosition\":2,\"hIndex\":32,\"deptId\":\"11944\",\"deptName\":\"Biobehavioral Health and Population Sciences (Duluth)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "malabsi"
-    ],
     "affiliateAuthorsDeptId": [
       "11944"
     ],
@@ -3712,9 +3371,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"speck001\",\"firstName\":\"Sheila\",\"lastName\":\"Specker\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6603546500\",\"authorPosition\":2,\"hIndex\":16,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "speck001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -3751,10 +3407,6 @@
       "{\"internetID\":\"valle001\",\"firstName\":\"Daniel\",\"lastName\":\"Vallera\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006107144\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0104\",\"deptName\":\"Radiation Oncology\"}",
       "{\"internetID\":\"blaza001\",\"firstName\":\"Bruce\",\"lastName\":\"Blazar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102198392\",\"authorPosition\":5,\"hIndex\":94,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "valle001",
-      "blaza001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0104",
       "Z0100"
@@ -3790,9 +3442,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jervasti\",\"firstName\":\"James\",\"lastName\":\"Ervasti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464190500\",\"authorPosition\":2,\"hIndex\":40,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jervasti"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -3827,9 +3476,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hiasa001\",\"firstName\":\"Hiroshi\",\"lastName\":\"Hiasa\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003700067\",\"authorPosition\":3,\"hIndex\":25,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hiasa001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -3871,9 +3517,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lande028\",\"firstName\":\"Daniel\",\"lastName\":\"Landers\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102066584\",\"authorPosition\":1,\"hIndex\":35,\"deptId\":\"Z0097\",\"deptName\":\"Obstetrics and Gynecology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lande028"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0097"
     ],
@@ -3908,9 +3551,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":5,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -3941,9 +3581,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcgla001\",\"firstName\":\"Philip\",\"lastName\":\"Mc Glave\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005120965\",\"authorPosition\":2,\"hIndex\":70,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcgla001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -3978,9 +3615,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ducre001\",\"firstName\":\"Rene\",\"lastName\":\"Du Cret\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701486535\",\"authorPosition\":4,\"hIndex\":13,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ducre001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -4017,9 +3651,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"berry002\",\"firstName\":\"Susan\",\"lastName\":\"Berry\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7201836853\",\"authorPosition\":5,\"hIndex\":30,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "berry002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -4053,9 +3684,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":4,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mauer002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -4086,9 +3714,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"agre0012\",\"firstName\":\"James\",\"lastName\":\"Agre\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007002790\",\"authorPosition\":2,\"hIndex\":28,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "agre0012"
     ],
     "affiliateAuthorsDeptId": [
       "Z0101"
@@ -4125,9 +3750,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hogqu001\",\"firstName\":\"Kristin\",\"lastName\":\"Hogquist\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004012127\",\"authorPosition\":1,\"hIndex\":49,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hogqu001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -4161,10 +3783,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dunnigan\",\"firstName\":\"Ann\",\"lastName\":\"Dunnigan\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003614902\",\"authorPosition\":2,\"hIndex\":26,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"bendi001\",\"firstName\":\"David\",\"lastName\":\"Benditt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005315485\",\"authorPosition\":1,\"hIndex\":49,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dunnigan",
-      "bendi001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0100",
@@ -4200,9 +3818,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"gourleyg\",\"firstName\":\"Glenn\",\"lastName\":\"Gourley\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004113923\",\"authorPosition\":2,\"hIndex\":16,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gourleyg"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -4236,9 +3851,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"regel001\",\"firstName\":\"Warren\",\"lastName\":\"Regelmann\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003870721\",\"authorPosition\":4,\"hIndex\":21,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "regel001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -4270,9 +3882,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"kenne001\",\"firstName\":\"William\",\"lastName\":\"Kennedy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202593564\",\"authorPosition\":1,\"hIndex\":47,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "kenne001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0093"
@@ -4312,10 +3921,6 @@
       "{\"internetID\":\"muell002\",\"firstName\":\"Daniel\",\"lastName\":\"Mueller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202616703\",\"authorPosition\":2,\"hIndex\":33,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"jenki002\",\"firstName\":\"Marc\",\"lastName\":\"Jenkins\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402024791\",\"authorPosition\":1,\"hIndex\":64,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "muell002",
-      "jenki002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0085"
@@ -4352,9 +3957,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":3,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -4387,9 +3989,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"asaluja\",\"firstName\":\"Ashok\",\"lastName\":\"Saluja\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"7006777497\",\"authorPosition\":2,\"hIndex\":49,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "asaluja"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -4420,9 +4019,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"skubi001\",\"firstName\":\"Keith\",\"lastName\":\"Skubitz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006006597\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "skubi001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -4456,9 +4052,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ander012\",\"firstName\":\"David\",\"lastName\":\"Anderson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55483399300\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ander012"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -4489,9 +4082,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcloons\",\"firstName\":\"Steven\",\"lastName\":\"McLoon\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003732367\",\"authorPosition\":2,\"hIndex\":29,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcloons"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -4526,9 +4116,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"truwit\",\"firstName\":\"Chip\",\"lastName\":\"Truwit\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464512200\",\"authorPosition\":1,\"hIndex\":44,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "truwit"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -4561,9 +4148,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":3,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -4594,9 +4178,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"nelse002\",\"firstName\":\"Gary\",\"lastName\":\"Nelsestuen\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006059600\",\"authorPosition\":2,\"hIndex\":36,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "nelse002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -4631,9 +4212,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"belcher\",\"firstName\":\"John\",\"lastName\":\"Belcher\",\"tenure_status\":\"\",\"scopus_author_id\":\"35745516800\",\"authorPosition\":4,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belcher"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -4666,9 +4244,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"prielipp\",\"firstName\":\"Richard\",\"lastName\":\"Prielipp\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004497093\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "prielipp"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0088"
     ],
@@ -4699,9 +4274,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"swion001\",\"firstName\":\"Marc\",\"lastName\":\"Swiontkowski\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005031633\",\"authorPosition\":2,\"hIndex\":62,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "swion001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0099"
@@ -4745,9 +4317,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":12,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -4782,9 +4351,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tlpruett\",\"firstName\":\"Timothy\",\"lastName\":\"Pruett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006843339\",\"authorPosition\":4,\"hIndex\":54,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tlpruett"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -4818,9 +4384,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tlpruett\",\"firstName\":\"Timothy\",\"lastName\":\"Pruett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006843339\",\"authorPosition\":4,\"hIndex\":54,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tlpruett"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -4852,9 +4415,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"poteg001\",\"firstName\":\"Michael\",\"lastName\":\"Potegal\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003703310\",\"authorPosition\":2,\"hIndex\":25,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "poteg001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -4885,9 +4445,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":2,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -4921,9 +4478,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"katzx001\",\"firstName\":\"Stephen\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"36137040000\",\"authorPosition\":3,\"hIndex\":13,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "katzx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -4955,9 +4509,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "buchw001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -4994,9 +4545,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":2,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -5030,9 +4578,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -5064,9 +4609,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bhering\",\"firstName\":\"Bernhard\",\"lastName\":\"Hering\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35390723800\",\"authorPosition\":3,\"hIndex\":46,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bhering"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -5102,9 +4644,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jenki002\",\"firstName\":\"Marc\",\"lastName\":\"Jenkins\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402024791\",\"authorPosition\":5,\"hIndex\":64,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jenki002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0085"
     ],
@@ -5135,9 +4674,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dlaporte\",\"firstName\":\"David\",\"lastName\":\"Laporte\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006083571\",\"authorPosition\":2,\"hIndex\":27,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dlaporte"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -5171,9 +4707,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":2,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -5206,9 +4739,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"lipsc001\",\"firstName\":\"John\",\"lastName\":\"Lipscomb\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103359198\",\"authorPosition\":4,\"hIndex\":58,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lipsc001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -5247,9 +4777,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -5283,9 +4810,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bhering\",\"firstName\":\"Bernhard\",\"lastName\":\"Hering\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35390723800\",\"authorPosition\":3,\"hIndex\":46,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bhering"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -5321,10 +4845,6 @@
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":4,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"kenne001\",\"firstName\":\"William\",\"lastName\":\"Kennedy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202593564\",\"authorPosition\":2,\"hIndex\":47,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "furch001",
-      "kenne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091",
       "Z0093"
@@ -5358,9 +4878,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"nelse002\",\"firstName\":\"Gary\",\"lastName\":\"Nelsestuen\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006059600\",\"authorPosition\":1,\"hIndex\":36,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "nelse002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -5406,27 +4923,11 @@
       "{\"internetID\":\"kasht001\",\"firstName\":\"Clifford\",\"lastName\":\"Kashtan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007130345\",\"authorPosition\":8,\"hIndex\":38,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":3,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "nevin001",
-      "chave001",
-      "mauer002",
-      "gilli002",
-      "kasht001",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0100",
-      "Z0100",
-      "Z0100",
-      "Z0103",
       "Z0100",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Pediatrics",
-      "Pediatrics",
-      "Pediatrics",
-      "Surgery",
       "Pediatrics",
       "Surgery"
     ]
@@ -5457,9 +4958,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"verce001\",\"firstName\":\"Gregory\",\"lastName\":\"Vercellotti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004463806\",\"authorPosition\":3,\"hIndex\":60,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "verce001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -5494,9 +4992,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"peter001\",\"firstName\":\"Bruce\",\"lastName\":\"Peterson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55221546300\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "peter001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -5529,9 +5024,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"prielipp\",\"firstName\":\"Richard\",\"lastName\":\"Prielipp\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004497093\",\"authorPosition\":4,\"hIndex\":29,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "prielipp"
     ],
     "affiliateAuthorsDeptId": [
       "Z0088"
@@ -5568,9 +5060,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"shimi002\",\"firstName\":\"Yoji\",\"lastName\":\"Shimizu\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7404068619\",\"authorPosition\":1,\"hIndex\":48,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "shimi002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -5609,9 +5098,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"pritz001\",\"firstName\":\"Marc\",\"lastName\":\"Pritzker\",\"tenure_status\":\"\",\"scopus_author_id\":\"55390238200\",\"authorPosition\":6,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "pritz001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -5642,9 +5128,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hecht002\",\"firstName\":\"Stephen\",\"lastName\":\"Hecht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"36041167800\",\"authorPosition\":1,\"hIndex\":86,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hecht002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -5677,9 +5160,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hecht002\",\"firstName\":\"Stephen\",\"lastName\":\"Hecht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"36041167800\",\"authorPosition\":3,\"hIndex\":86,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hecht002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -5715,9 +5195,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"shaines\",\"firstName\":\"Stephen\",\"lastName\":\"Haines\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102912181\",\"authorPosition\":3,\"hIndex\":37,\"deptId\":\"Z0094\",\"deptName\":\"Neurosurgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "shaines"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0094"
     ],
@@ -5752,9 +5229,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"eckfe001\",\"firstName\":\"John\",\"lastName\":\"Eckfeldt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006754410\",\"authorPosition\":5,\"hIndex\":61,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "eckfe001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -5786,9 +5260,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"agre0012\",\"firstName\":\"James\",\"lastName\":\"Agre\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007002790\",\"authorPosition\":3,\"hIndex\":28,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "agre0012"
     ],
     "affiliateAuthorsDeptId": [
       "Z0101"
@@ -5824,9 +5295,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"kottk031\",\"firstName\":\"Thomas\",\"lastName\":\"Kottke\",\"tenure_status\":\"\",\"scopus_author_id\":\"21646037500\",\"authorPosition\":4,\"hIndex\":41,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "kottk031"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -5866,10 +5334,6 @@
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":3,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"mille002\",\"firstName\":\"Wesley\",\"lastName\":\"Miller\",\"tenure_status\":\"\",\"scopus_author_id\":\"7406061966\",\"authorPosition\":1,\"hIndex\":36,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "balfo001",
-      "mille002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091",
       "Z0092"
@@ -5908,16 +5372,10 @@
       "{\"internetID\":\"kimxx001\",\"firstName\":\"Youngki\",\"lastName\":\"Kim\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"54958254900\",\"authorPosition\":1,\"hIndex\":42,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":4,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kimxx001",
-      "mauer002"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0100",
       "Z0100"
     ],
     "affiliateAuthorsDeptName": [
-      "Pediatrics",
       "Pediatrics"
     ]
   },
@@ -5946,9 +5404,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dunny001\",\"firstName\":\"Gary\",\"lastName\":\"Dunny\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004810471\",\"authorPosition\":4,\"hIndex\":43,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dunny001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0085"
@@ -5984,9 +5439,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"skubi001\",\"firstName\":\"Keith\",\"lastName\":\"Skubitz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006006597\",\"authorPosition\":5,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "skubi001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -6017,9 +5469,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dubin001\",\"firstName\":\"Janet\",\"lastName\":\"Dubinsky\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003926218\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dubin001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -6056,9 +5505,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jervasti\",\"firstName\":\"James\",\"lastName\":\"Ervasti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464190500\",\"authorPosition\":2,\"hIndex\":40,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jervasti"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -6090,9 +5536,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":3,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -6139,19 +5582,12 @@
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":4,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"kasht001\",\"firstName\":\"Clifford\",\"lastName\":\"Kashtan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007130345\",\"authorPosition\":3,\"hIndex\":38,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "maniv001",
-      "mauer002",
-      "kasht001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091",
-      "Z0100",
       "Z0100"
     ],
     "affiliateAuthorsDeptName": [
       "Lab Medicine/Pathology",
-      "Pediatrics",
       "Pediatrics"
     ]
   },
@@ -6183,9 +5619,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hirsc005\",\"firstName\":\"Alan\",\"lastName\":\"Hirsch\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201744651\",\"authorPosition\":3,\"hIndex\":55,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hirsc005"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -6223,19 +5656,12 @@
       "{\"internetID\":\"eckfe001\",\"firstName\":\"John\",\"lastName\":\"Eckfeldt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006754410\",\"authorPosition\":1,\"hIndex\":61,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"singh016\",\"firstName\":\"Jasbir\",\"lastName\":\"Singh\",\"tenure_status\":\"\",\"scopus_author_id\":\"7404421155\",\"authorPosition\":4,\"hIndex\":32,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belcher",
-      "eckfe001",
-      "singh016"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
-      "Z0091",
       "Z0091"
     ],
     "affiliateAuthorsDeptName": [
       "Medicine",
-      "Lab Medicine/Pathology",
       "Lab Medicine/Pathology"
     ]
   },
@@ -6264,9 +5690,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -6300,9 +5723,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"rothe002\",\"firstName\":\"David\",\"lastName\":\"Rothenberger\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464506200\",\"authorPosition\":3,\"hIndex\":60,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "rothe002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -6341,9 +5761,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dpowell\",\"firstName\":\"Deborah\",\"lastName\":\"Powell\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35265232900\",\"authorPosition\":7,\"hIndex\":29,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dpowell"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -6377,10 +5794,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ferri002\",\"firstName\":\"Patricia\",\"lastName\":\"Ferrieri\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006553543\",\"authorPosition\":2,\"hIndex\":45,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"blaza001\",\"firstName\":\"Bruce\",\"lastName\":\"Blazar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102198392\",\"authorPosition\":4,\"hIndex\":94,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ferri002",
-      "blaza001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091",
@@ -6416,9 +5829,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jneglia\",\"firstName\":\"Joseph\",\"lastName\":\"Neglia\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006802359\",\"authorPosition\":1,\"hIndex\":56,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jneglia"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -6453,10 +5863,6 @@
       "{\"internetID\":\"shaines\",\"firstName\":\"Stephen\",\"lastName\":\"Haines\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102912181\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0094\",\"deptName\":\"Neurosurgery\"}",
       "{\"internetID\":\"levin001\",\"firstName\":\"Samuel\",\"lastName\":\"Levine\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7403575979\",\"authorPosition\":1,\"hIndex\":24,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "shaines",
-      "levin001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0094",
       "Z0095"
@@ -6489,9 +5895,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kenne001\",\"firstName\":\"William\",\"lastName\":\"Kennedy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202593564\",\"authorPosition\":1,\"hIndex\":47,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kenne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -6523,9 +5926,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"taylora\",\"firstName\":\"Andrew\",\"lastName\":\"Taylor\",\"tenure_status\":\"\",\"scopus_author_id\":\"55473522000\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "taylora"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -6563,9 +5963,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"aven0001\",\"firstName\":\"Pablo\",\"lastName\":\"Avendano\",\"tenure_status\":\"\",\"scopus_author_id\":\"6602526635\",\"authorPosition\":2,\"hIndex\":3,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "aven0001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -6597,9 +5994,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":2,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -6629,9 +6023,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hebbe001\",\"firstName\":\"Robert\",\"lastName\":\"Hebbel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006964574\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hebbe001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -6666,9 +6057,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":5,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -6708,9 +6096,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":5,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -6741,9 +6126,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"drwatson\",\"firstName\":\"Kathleen\",\"lastName\":\"Watson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201554470\",\"authorPosition\":1,\"hIndex\":9,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "drwatson"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -6780,9 +6162,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -6813,9 +6192,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"maure077\",\"firstName\":\"David\",\"lastName\":\"Maurer\",\"tenure_status\":\"\",\"scopus_author_id\":\"7101953096\",\"authorPosition\":1,\"hIndex\":14,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "maure077"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -6848,9 +6224,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"lohxx001\",\"firstName\":\"Horace\",\"lastName\":\"Loh\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35497433400\",\"authorPosition\":3,\"hIndex\":72,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lohxx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -6886,9 +6259,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":5,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -6918,9 +6288,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ohlen001\",\"firstName\":\"Douglas\",\"lastName\":\"Ohlendorf\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004809622\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ohlen001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -6957,9 +6324,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jafar\",\"firstName\":\"Jafar\",\"lastName\":\"Golzarian\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004504670\",\"authorPosition\":3,\"hIndex\":22,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jafar"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -6995,9 +6359,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"semru002\",\"firstName\":\"Margaret\",\"lastName\":\"Semrud-Clikeman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701335348\",\"authorPosition\":2,\"hIndex\":29,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "semru002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -7030,10 +6391,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"steff001\",\"firstName\":\"Michael\",\"lastName\":\"Steffes\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35360768100\",\"authorPosition\":2,\"hIndex\":84,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":3,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "steff001",
-      "mauer002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091",
@@ -7069,9 +6426,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":2,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -7105,9 +6459,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lebie001\",\"firstName\":\"Tucker\",\"lastName\":\"LeBien\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6504473039\",\"authorPosition\":2,\"hIndex\":38,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lebie001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -7139,9 +6490,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"taylora\",\"firstName\":\"Andrew\",\"lastName\":\"Taylor\",\"tenure_status\":\"\",\"scopus_author_id\":\"55473522000\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "taylora"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -7172,9 +6520,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"armit001\",\"firstName\":\"Ian\",\"lastName\":\"Armitage\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005184247\",\"authorPosition\":2,\"hIndex\":33,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "armit001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -7209,9 +6554,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":3,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "furch001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -7242,9 +6584,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jneglia\",\"firstName\":\"Joseph\",\"lastName\":\"Neglia\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006802359\",\"authorPosition\":1,\"hIndex\":56,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jneglia"
     ],
     "affiliateAuthorsDeptId": [
       "Z0100"
@@ -7278,9 +6617,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"tsupr001\",\"firstName\":\"Vladimir\",\"lastName\":\"Tsuprun\",\"tenure_status\":\"\",\"scopus_author_id\":\"7004203548\",\"authorPosition\":1,\"hIndex\":18,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "tsupr001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0095"
@@ -7318,9 +6654,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":3,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "payne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -7354,9 +6687,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"yeexx006\",\"firstName\":\"Douglas\",\"lastName\":\"Yee\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102066378\",\"authorPosition\":2,\"hIndex\":62,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "yeexx006"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -7392,9 +6722,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":4,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -7425,9 +6752,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":2,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -7461,10 +6785,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hecht002\",\"firstName\":\"Stephen\",\"lastName\":\"Hecht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"36041167800\",\"authorPosition\":1,\"hIndex\":86,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"murph062\",\"firstName\":\"Sharon\",\"lastName\":\"Murphy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402779008\",\"authorPosition\":3,\"hIndex\":38,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hecht002",
-      "murph062"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091",
@@ -7505,19 +6825,10 @@
       "{\"internetID\":\"skubi002\",\"firstName\":\"Amy\",\"lastName\":\"Skubitz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006762447\",\"authorPosition\":2,\"hIndex\":42,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"mccar001\",\"firstName\":\"James\",\"lastName\":\"Mc Carthy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402958747\",\"authorPosition\":1,\"hIndex\":63,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "furch001",
-      "skubi002",
-      "mccar001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0091",
-      "Z0091",
       "Z0091"
     ],
     "affiliateAuthorsDeptName": [
-      "Lab Medicine/Pathology",
-      "Lab Medicine/Pathology",
       "Lab Medicine/Pathology"
     ]
   },
@@ -7550,9 +6861,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"eller001\",\"firstName\":\"Jutta\",\"lastName\":\"Ellermann\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003989470\",\"authorPosition\":2,\"hIndex\":16,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "eller001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -7583,9 +6891,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":1,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "furch001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -7620,9 +6925,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"leexx006\",\"firstName\":\"Chung\",\"lastName\":\"Lee\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"16747138600\",\"authorPosition\":4,\"hIndex\":20,\"deptId\":\"Z0104\",\"deptName\":\"Radiation Oncology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "leexx006"
     ],
     "affiliateAuthorsDeptId": [
       "Z0104"
@@ -7661,10 +6963,6 @@
       "{\"internetID\":\"bitte001\",\"firstName\":\"Peter\",\"lastName\":\"Bitterman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004816180\",\"authorPosition\":3,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"haase001\",\"firstName\":\"Ashley\",\"lastName\":\"Haase\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102326296\",\"authorPosition\":7,\"hIndex\":68,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bitte001",
-      "haase001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0085"
@@ -7701,9 +6999,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"liaox014\",\"firstName\":\"Kenneth\",\"lastName\":\"Liao\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"7203022907\",\"authorPosition\":1,\"hIndex\":17,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "liaox014"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -7738,9 +7033,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"garry\",\"firstName\":\"Daniel\",\"lastName\":\"Garry\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006865345\",\"authorPosition\":5,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "garry"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -7777,9 +7069,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"liaox014\",\"firstName\":\"Kenneth\",\"lastName\":\"Liao\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"7203022907\",\"authorPosition\":1,\"hIndex\":17,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "liaox014"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -7813,9 +7102,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"matsu029\",\"firstName\":\"Hiroshi\",\"lastName\":\"Matsuo\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"21636267000\",\"authorPosition\":1,\"hIndex\":21,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "matsu029"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -7854,10 +7140,6 @@
       "{\"internetID\":\"arend001\",\"firstName\":\"Elizabeth\",\"lastName\":\"Arendt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005314447\",\"authorPosition\":4,\"hIndex\":26,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}",
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":7,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "arend001",
-      "buchw001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0099",
       "Z0103"
@@ -7894,9 +7176,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":3,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -7927,9 +7206,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"berns001\",\"firstName\":\"Gail\",\"lastName\":\"Bernstein\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102813781\",\"authorPosition\":1,\"hIndex\":30,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "berns001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -7964,10 +7240,6 @@
       "{\"internetID\":\"regel001\",\"firstName\":\"Warren\",\"lastName\":\"Regelmann\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003870721\",\"authorPosition\":1,\"hIndex\":21,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"skubi001\",\"firstName\":\"Keith\",\"lastName\":\"Skubitz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006006597\",\"authorPosition\":2,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "regel001",
-      "skubi001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100",
       "Z0092"
@@ -8000,9 +7272,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hacke004\",\"firstName\":\"Perry\",\"lastName\":\"Hackett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102839403\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hacke004"
     ],
     "affiliateAuthorsDeptId": [
       "Z0084"
@@ -8040,9 +7309,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"huxxx031\",\"firstName\":\"Shuxian\",\"lastName\":\"Hu\",\"tenure_status\":\"\",\"scopus_author_id\":\"7404287138\",\"authorPosition\":3,\"hIndex\":55,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "huxxx031"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -8074,9 +7340,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -8114,9 +7377,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kikyo001\",\"firstName\":\"Nobuaki\",\"lastName\":\"Kikyo\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6603412958\",\"authorPosition\":3,\"hIndex\":19,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kikyo001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0084"
     ],
@@ -8150,9 +7410,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ohlen001\",\"firstName\":\"Douglas\",\"lastName\":\"Ohlendorf\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004809622\",\"authorPosition\":2,\"hIndex\":39,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ohlen001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -8183,9 +7440,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -8215,9 +7469,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"alfried\",\"firstName\":\"Aaron\",\"lastName\":\"Friedman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55424845900\",\"authorPosition\":1,\"hIndex\":24,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "alfried"
     ],
     "affiliateAuthorsDeptId": [
       "Z0100"
@@ -8257,9 +7508,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":5,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -8291,9 +7539,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":1,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -8333,9 +7578,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":6,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -8367,9 +7609,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcarroll\",\"firstName\":\"Marilyn\",\"lastName\":\"Carroll\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402388096\",\"authorPosition\":1,\"hIndex\":54,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcarroll"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -8408,9 +7647,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0087"
@@ -8453,11 +7689,6 @@
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":4,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}",
       "{\"internetID\":\"carso001\",\"firstName\":\"Linda\",\"lastName\":\"Carson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007050568\",\"authorPosition\":7,\"hIndex\":34,\"deptId\":\"Z0097\",\"deptName\":\"Obstetrics and Gynecology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "sunda001",
-      "corne001",
-      "carso001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086",
       "Z0087",
@@ -8494,9 +7725,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":2,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -8529,9 +7757,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ohlen001\",\"firstName\":\"Douglas\",\"lastName\":\"Ohlendorf\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004809622\",\"authorPosition\":3,\"hIndex\":39,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ohlen001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -8569,9 +7794,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":3,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0087"
@@ -8613,9 +7835,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":5,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -8647,9 +7866,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"lange024\",\"firstName\":\"Alex\",\"lastName\":\"Lange\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202217190\",\"authorPosition\":1,\"hIndex\":36,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "lange024"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -8684,9 +7900,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":3,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mauer002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -8717,9 +7930,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"shaines\",\"firstName\":\"Stephen\",\"lastName\":\"Haines\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102912181\",\"authorPosition\":2,\"hIndex\":37,\"deptId\":\"Z0094\",\"deptName\":\"Neurosurgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "shaines"
     ],
     "affiliateAuthorsDeptId": [
       "Z0094"
@@ -8757,9 +7967,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":5,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -8791,9 +7998,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"iaizz001\",\"firstName\":\"Paul\",\"lastName\":\"Iaizzo\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005561758\",\"authorPosition\":2,\"hIndex\":28,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "iaizz001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -8833,9 +8037,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"braun002\",\"firstName\":\"Elizabeth\",\"lastName\":\"Braunlin\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004464992\",\"authorPosition\":1,\"hIndex\":21,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "braun002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -8865,9 +8066,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hamme001\",\"firstName\":\"Dale\",\"lastName\":\"Hammerschmidt\",\"tenure_status\":\"\",\"scopus_author_id\":\"34974094100\",\"authorPosition\":1,\"hIndex\":30,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hamme001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -8906,9 +8104,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"gilli002\",\"firstName\":\"Kristen\",\"lastName\":\"Gillingham\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006883398\",\"authorPosition\":3,\"hIndex\":48,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -8938,9 +8133,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -8976,9 +8168,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"schot002\",\"firstName\":\"Janet\",\"lastName\":\"Schottel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004077684\",\"authorPosition\":1,\"hIndex\":21,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "schot002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -9011,9 +8200,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"fatem002\",\"firstName\":\"S\",\"lastName\":\"Fatemi\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006383274\",\"authorPosition\":2,\"hIndex\":43,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "fatem002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -9050,9 +8236,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tsupr001\",\"firstName\":\"Vladimir\",\"lastName\":\"Tsuprun\",\"tenure_status\":\"\",\"scopus_author_id\":\"7004203548\",\"authorPosition\":2,\"hIndex\":18,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tsupr001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0095"
     ],
@@ -9082,9 +8265,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -9117,9 +8297,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jvpardo\",\"firstName\":\"Jose\",\"lastName\":\"Pardo\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201754668\",\"authorPosition\":2,\"hIndex\":38,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jvpardo"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -9151,9 +8328,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":2,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -9184,9 +8358,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -9216,9 +8387,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -9254,16 +8422,10 @@
       "{\"internetID\":\"polun001\",\"firstName\":\"Vitaly\",\"lastName\":\"Polunovsky\",\"tenure_status\":\"\",\"scopus_author_id\":\"6603050863\",\"authorPosition\":2,\"hIndex\":22,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"bitte001\",\"firstName\":\"Peter\",\"lastName\":\"Bitterman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004816180\",\"authorPosition\":4,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "polun001",
-      "bitte001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -9293,9 +8455,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"george\",\"firstName\":\"George\",\"lastName\":\"Wilcox\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102388295\",\"authorPosition\":2,\"hIndex\":47,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "george"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -9328,9 +8487,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"levit015\",\"firstName\":\"Michael\",\"lastName\":\"Levitt\",\"tenure_status\":\"\",\"scopus_author_id\":\"35599897600\",\"authorPosition\":3,\"hIndex\":53,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "levit015"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -9368,19 +8524,10 @@
       "{\"internetID\":\"braun002\",\"firstName\":\"Elizabeth\",\"lastName\":\"Braunlin\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004464992\",\"authorPosition\":3,\"hIndex\":21,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"bassx001\",\"firstName\":\"John\",\"lastName\":\"Bass\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202858228\",\"authorPosition\":2,\"hIndex\":27,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dunnigan",
-      "braun002",
-      "bassx001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0100",
-      "Z0100",
       "Z0100"
     ],
     "affiliateAuthorsDeptName": [
-      "Pediatrics",
-      "Pediatrics",
       "Pediatrics"
     ]
   },
@@ -9414,11 +8561,6 @@
       "{\"internetID\":\"allen001\",\"firstName\":\"Sharon\",\"lastName\":\"Allen\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35344644000\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0090\",\"deptName\":\"Family Medicine\\/Comm Health (TC)\"}",
       "{\"internetID\":\"ander012\",\"firstName\":\"David\",\"lastName\":\"Anderson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55483399300\",\"authorPosition\":4,\"hIndex\":29,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}",
       "{\"internetID\":\"mille002\",\"firstName\":\"Wesley\",\"lastName\":\"Miller\",\"tenure_status\":\"\",\"scopus_author_id\":\"7406061966\",\"authorPosition\":7,\"hIndex\":36,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "allen001",
-      "ander012",
-      "mille002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0090",
@@ -9460,9 +8602,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"grege001\",\"firstName\":\"Dale\",\"lastName\":\"Gregerson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35563896700\",\"authorPosition\":6,\"hIndex\":26,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "grege001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0098"
     ],
@@ -9494,9 +8633,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"rougv001\",\"firstName\":\"Ann\",\"lastName\":\"Rougvie\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6603956216\",\"authorPosition\":2,\"hIndex\":16,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "rougv001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0084"
@@ -9532,9 +8668,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hatsu001\",\"firstName\":\"Dorothy\",\"lastName\":\"Hatsukami\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006396726\",\"authorPosition\":1,\"hIndex\":62,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hatsu001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -9567,9 +8700,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"taylora\",\"firstName\":\"Andrew\",\"lastName\":\"Taylor\",\"tenure_status\":\"\",\"scopus_author_id\":\"55473522000\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "taylora"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -9604,9 +8734,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"muell002\",\"firstName\":\"Daniel\",\"lastName\":\"Mueller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202616703\",\"authorPosition\":1,\"hIndex\":33,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "muell002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -9638,9 +8765,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"burme008\",\"firstName\":\"Lynn\",\"lastName\":\"Burmeister\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006969322\",\"authorPosition\":1,\"hIndex\":20,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "burme008"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -9671,9 +8795,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ljcisek\",\"firstName\":\"Lawrence\",\"lastName\":\"Cisek\",\"tenure_status\":\"\",\"scopus_author_id\":\"22943491900\",\"authorPosition\":1,\"hIndex\":19,\"deptId\":\"Z0105\",\"deptName\":\"Urologic Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ljcisek"
     ],
     "affiliateAuthorsDeptId": [
       "Z0105"
@@ -9710,9 +8831,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -9748,16 +8866,10 @@
       "{\"internetID\":\"belcher\",\"firstName\":\"John\",\"lastName\":\"Belcher\",\"tenure_status\":\"\",\"scopus_author_id\":\"35745516800\",\"authorPosition\":4,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"verce001\",\"firstName\":\"Gregory\",\"lastName\":\"Vercellotti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004463806\",\"authorPosition\":5,\"hIndex\":60,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belcher",
-      "verce001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -9786,9 +8898,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"swion001\",\"firstName\":\"Marc\",\"lastName\":\"Swiontkowski\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005031633\",\"authorPosition\":2,\"hIndex\":62,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "swion001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0099"
@@ -9819,9 +8928,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ean\",\"firstName\":\"Eric\",\"lastName\":\"Newman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7203066709\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ean"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -9860,9 +8966,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -9899,16 +9002,10 @@
       "{\"internetID\":\"bitte001\",\"firstName\":\"Peter\",\"lastName\":\"Bitterman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004816180\",\"authorPosition\":6,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"hertz001\",\"firstName\":\"Marshall\",\"lastName\":\"Hertz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102692035\",\"authorPosition\":1,\"hIndex\":54,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bitte001",
-      "hertz001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -9937,9 +9034,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":4,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -9973,9 +9067,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bernl001\",\"firstName\":\"David\",\"lastName\":\"Bernlohr\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006404788\",\"authorPosition\":4,\"hIndex\":46,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bernl001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -10012,9 +9103,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -10046,9 +9134,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mohrx005\",\"firstName\":\"Christian\",\"lastName\":\"Mohr\",\"tenure_status\":\"\",\"scopus_author_id\":\"35561496300\",\"authorPosition\":1,\"hIndex\":17,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mohrx005"
     ],
     "affiliateAuthorsDeptId": [
       "Z0085"
@@ -10084,9 +9169,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"kushn001\",\"firstName\":\"Matt\",\"lastName\":\"Kushner\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101995590\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "kushn001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -10125,9 +9207,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -10158,9 +9237,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jregal\",\"firstName\":\"Jean\",\"lastName\":\"Regal\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004040993\",\"authorPosition\":2,\"hIndex\":15,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jregal"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -10200,20 +9276,13 @@
       "{\"internetID\":\"cross008\",\"firstName\":\"John\",\"lastName\":\"Crosson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003275562\",\"authorPosition\":5,\"hIndex\":22,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"avikatz\",\"firstName\":\"Avi\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402569510\",\"authorPosition\":6,\"hIndex\":12,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kimxx001",
-      "cross008",
-      "avikatz"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100",
-      "Z0091",
-      "Z0100"
+      "Z0091"
     ],
     "affiliateAuthorsDeptName": [
       "Pediatrics",
-      "Lab Medicine/Pathology",
-      "Pediatrics"
+      "Lab Medicine/Pathology"
     ]
   },
   {
@@ -10238,9 +9307,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ander012\",\"firstName\":\"David\",\"lastName\":\"Anderson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55483399300\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ander012"
     ],
     "affiliateAuthorsDeptId": [
       "Z0093"
@@ -10279,16 +9345,10 @@
       "{\"internetID\":\"foker001\",\"firstName\":\"John\",\"lastName\":\"Foker\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004579423\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"bianc001\",\"firstName\":\"Richard\",\"lastName\":\"Bianco\",\"tenure_status\":\"\",\"scopus_author_id\":\"7005203933\",\"authorPosition\":4,\"hIndex\":24,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "foker001",
-      "bianc001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
       "Surgery"
     ]
   },
@@ -10318,9 +9378,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"verce001\",\"firstName\":\"Gregory\",\"lastName\":\"Vercellotti\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004463806\",\"authorPosition\":5,\"hIndex\":60,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "verce001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -10354,9 +9411,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bechtold\",\"firstName\":\"Joan\",\"lastName\":\"Bechtold\",\"tenure_status\":\"\",\"scopus_author_id\":\"7005367847\",\"authorPosition\":3,\"hIndex\":26,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bechtold"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0099"
     ],
@@ -10389,9 +9443,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wiacono\",\"firstName\":\"William\",\"lastName\":\"Iacono\",\"tenure_status\":\"\",\"scopus_author_id\":\"26643122100\",\"authorPosition\":4,\"hIndex\":75,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wiacono"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -10429,9 +9480,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"dpowell\",\"firstName\":\"Deborah\",\"lastName\":\"Powell\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35265232900\",\"authorPosition\":6,\"hIndex\":29,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dpowell"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -10466,9 +9514,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tsupr001\",\"firstName\":\"Vladimir\",\"lastName\":\"Tsuprun\",\"tenure_status\":\"\",\"scopus_author_id\":\"7004203548\",\"authorPosition\":3,\"hIndex\":18,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tsupr001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0095"
     ],
@@ -10502,9 +9547,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hacke004\",\"firstName\":\"Perry\",\"lastName\":\"Hackett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102839403\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hacke004"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0084"
     ],
@@ -10535,9 +9577,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wrigh004\",\"firstName\":\"Martha\",\"lastName\":\"Wright\",\"tenure_status\":\"\",\"scopus_author_id\":\"7401558607\",\"authorPosition\":1,\"hIndex\":14,\"deptId\":\"Z0098\",\"deptName\":\"Ophthalmology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wrigh004"
     ],
     "affiliateAuthorsDeptId": [
       "Z0098"
@@ -10572,9 +9611,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"meisel\",\"firstName\":\"Robert\",\"lastName\":\"Meisel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006375569\",\"authorPosition\":3,\"hIndex\":25,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "meisel"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0107"
     ],
@@ -10607,9 +9643,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"garry002\",\"firstName\":\"Mary\",\"lastName\":\"Garry\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005635599\",\"authorPosition\":1,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "garry002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -10652,9 +9685,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tlpruett\",\"firstName\":\"Timothy\",\"lastName\":\"Pruett\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006843339\",\"authorPosition\":9,\"hIndex\":54,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tlpruett"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -10688,9 +9718,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"rfm\",\"firstName\":\"Robert\",\"lastName\":\"Miller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"8709945100\",\"authorPosition\":5,\"hIndex\":45,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "rfm"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -10729,9 +9756,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jacksonb\",\"firstName\":\"Brooks\",\"lastName\":\"Jackson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35421119100\",\"authorPosition\":1,\"hIndex\":47,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jacksonb"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -10766,9 +9790,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"evers001\",\"firstName\":\"Lenore\",\"lastName\":\"Everson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003713507\",\"authorPosition\":1,\"hIndex\":10,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "evers001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -10801,9 +9822,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"zhuxx022\",\"firstName\":\"Xiao-Hong\",\"lastName\":\"Zhu\",\"tenure_status\":\"\",\"scopus_author_id\":\"7406187174\",\"authorPosition\":2,\"hIndex\":33,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "zhuxx022"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -10844,19 +9862,10 @@
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":4,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":2,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002",
-      "payne001",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
-      "Surgery",
       "Surgery"
     ]
   },
@@ -10883,9 +9892,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"agre0012\",\"firstName\":\"James\",\"lastName\":\"Agre\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007002790\",\"authorPosition\":2,\"hIndex\":28,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "agre0012"
     ],
     "affiliateAuthorsDeptId": [
       "Z0101"
@@ -10919,9 +9925,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"resni001\",\"firstName\":\"Michael\",\"lastName\":\"Resnick\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7201681958\",\"authorPosition\":2,\"hIndex\":52,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "resni001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0100"
@@ -10957,9 +9960,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"asaluja\",\"firstName\":\"Ashok\",\"lastName\":\"Saluja\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"7006777497\",\"authorPosition\":5,\"hIndex\":49,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "asaluja"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -10994,9 +9994,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mcfal001\",\"firstName\":\"Edward\",\"lastName\":\"McFalls\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006867772\",\"authorPosition\":1,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mcfal001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -11028,9 +10025,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"agre0012\",\"firstName\":\"James\",\"lastName\":\"Agre\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007002790\",\"authorPosition\":1,\"hIndex\":28,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "agre0012"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0101"
     ],
@@ -11060,9 +10054,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"shumw001\",\"firstName\":\"Sara\",\"lastName\":\"Shumway\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004980417\",\"authorPosition\":1,\"hIndex\":27,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "shumw001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -11098,9 +10089,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"schot002\",\"firstName\":\"Janet\",\"lastName\":\"Schottel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004077684\",\"authorPosition\":1,\"hIndex\":21,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "schot002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -11131,9 +10119,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"engel002\",\"firstName\":\"William\",\"lastName\":\"Engeland\",\"tenure_status\":\"\",\"scopus_author_id\":\"14818984700\",\"authorPosition\":2,\"hIndex\":30,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "engel002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -11169,9 +10154,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"armit001\",\"firstName\":\"Ian\",\"lastName\":\"Armitage\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005184247\",\"authorPosition\":3,\"hIndex\":33,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "armit001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -11202,9 +10184,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"palle001\",\"firstName\":\"Mark\",\"lastName\":\"Paller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006274988\",\"authorPosition\":1,\"hIndex\":32,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "palle001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -11238,9 +10217,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mbirkenb\",\"firstName\":\"Mark\",\"lastName\":\"Birkenbach\",\"tenure_status\":\"\",\"scopus_author_id\":\"6701519601\",\"authorPosition\":2,\"hIndex\":27,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mbirkenb"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -11272,9 +10248,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":1,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -11310,16 +10283,10 @@
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":4,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"skubi002\",\"firstName\":\"Amy\",\"lastName\":\"Skubitz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006762447\",\"authorPosition\":1,\"hIndex\":42,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "furch001",
-      "skubi002"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0091",
       "Z0091"
     ],
     "affiliateAuthorsDeptName": [
-      "Lab Medicine/Pathology",
       "Lab Medicine/Pathology"
     ]
   },
@@ -11346,9 +10313,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"realm001\",\"firstName\":\"George\",\"lastName\":\"Realmuto\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003841096\",\"authorPosition\":1,\"hIndex\":28,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "realm001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -11380,9 +10344,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcarroll\",\"firstName\":\"Marilyn\",\"lastName\":\"Carroll\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402388096\",\"authorPosition\":1,\"hIndex\":54,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcarroll"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -11420,9 +10381,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"pritz001\",\"firstName\":\"Marc\",\"lastName\":\"Pritzker\",\"tenure_status\":\"\",\"scopus_author_id\":\"55390238200\",\"authorPosition\":3,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "pritz001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -11454,9 +10412,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bloom008\",\"firstName\":\"Michael\",\"lastName\":\"Bloomquist\",\"tenure_status\":\"\",\"scopus_author_id\":\"6602541510\",\"authorPosition\":1,\"hIndex\":13,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bloom008"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -11493,10 +10448,6 @@
       "{\"internetID\":\"thomp004\",\"firstName\":\"Roby\",\"lastName\":\"Thompson\",\"tenure_status\":\"\",\"scopus_author_id\":\"13408091300\",\"authorPosition\":4,\"hIndex\":35,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}",
       "{\"internetID\":\"saltz002\",\"firstName\":\"Daniel\",\"lastName\":\"Saltzman\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35598433700\",\"authorPosition\":2,\"hIndex\":19,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "thomp004",
-      "saltz002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0099",
       "Z0103"
@@ -11529,9 +10480,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wiacono\",\"firstName\":\"William\",\"lastName\":\"Iacono\",\"tenure_status\":\"\",\"scopus_author_id\":\"26643122100\",\"authorPosition\":2,\"hIndex\":75,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wiacono"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -11574,19 +10522,10 @@
       "{\"internetID\":\"payne001\",\"firstName\":\"William\",\"lastName\":\"Payne\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202043899\",\"authorPosition\":8,\"hIndex\":50,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"matas001\",\"firstName\":\"Arthur\",\"lastName\":\"Matas\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202179971\",\"authorPosition\":9,\"hIndex\":78,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "gilli002",
-      "payne001",
-      "matas001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
-      "Surgery",
       "Surgery"
     ]
   },
@@ -11613,9 +10552,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mille002\",\"firstName\":\"Wesley\",\"lastName\":\"Miller\",\"tenure_status\":\"\",\"scopus_author_id\":\"7406061966\",\"authorPosition\":2,\"hIndex\":36,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mille002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -11652,9 +10588,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":3,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -11687,9 +10620,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"sachd003\",\"firstName\":\"Deepali\",\"lastName\":\"Sachdev\",\"tenure_status\":\"Termination- Tenure Track\",\"scopus_author_id\":\"6604055827\",\"authorPosition\":1,\"hIndex\":18,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "sachd003"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -11721,9 +10651,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"walse001\",\"firstName\":\"Timothy\",\"lastName\":\"Walseth\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005424273\",\"authorPosition\":3,\"hIndex\":47,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "walse001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -11759,9 +10686,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"prielipp\",\"firstName\":\"Richard\",\"lastName\":\"Prielipp\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004497093\",\"authorPosition\":4,\"hIndex\":29,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "prielipp"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0088"
     ],
@@ -11796,16 +10720,10 @@
       "{\"internetID\":\"dunit001\",\"firstName\":\"Jordan\",\"lastName\":\"Dunitz\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003275342\",\"authorPosition\":2,\"hIndex\":18,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"weisd001\",\"firstName\":\"Daniel\",\"lastName\":\"Weisdorf\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101796639\",\"authorPosition\":4,\"hIndex\":92,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "dunit001",
-      "weisd001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -11838,9 +10756,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jsiegfri\",\"firstName\":\"Jill\",\"lastName\":\"Siegfried\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"16140540800\",\"authorPosition\":6,\"hIndex\":52,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jsiegfri"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -11878,9 +10793,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"katzx001\",\"firstName\":\"Stephen\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"36137040000\",\"authorPosition\":3,\"hIndex\":13,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "katzx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -11916,9 +10828,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"corne001\",\"firstName\":\"Germaine\",\"lastName\":\"Cornelissen-Guillaume\",\"tenure_status\":\"\",\"scopus_author_id\":\"35374220200\",\"authorPosition\":1,\"hIndex\":39,\"deptId\":\"Z0087\",\"deptName\":\"Integrative Biology\\/Physiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "corne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0087"
     ],
@@ -11949,9 +10858,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wiacono\",\"firstName\":\"William\",\"lastName\":\"Iacono\",\"tenure_status\":\"\",\"scopus_author_id\":\"26643122100\",\"authorPosition\":2,\"hIndex\":75,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wiacono"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -11986,9 +10892,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":3,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -12021,10 +10924,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"steff001\",\"firstName\":\"Michael\",\"lastName\":\"Steffes\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35360768100\",\"authorPosition\":2,\"hIndex\":84,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":3,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "steff001",
-      "mauer002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091",
@@ -12059,9 +10958,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lohxx001\",\"firstName\":\"Horace\",\"lastName\":\"Loh\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35497433400\",\"authorPosition\":2,\"hIndex\":72,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lohxx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -12094,9 +10990,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":3,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -12126,9 +11019,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -12166,10 +11056,6 @@
       "{\"internetID\":\"ebner001\",\"firstName\":\"Timothy\",\"lastName\":\"Ebner\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004554313\",\"authorPosition\":5,\"hIndex\":36,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}",
       "{\"internetID\":\"shaines\",\"firstName\":\"Stephen\",\"lastName\":\"Haines\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102912181\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0094\",\"deptName\":\"Neurosurgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ebner001",
-      "shaines"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0107",
       "Z0094"
@@ -12204,9 +11090,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"eckfe001\",\"firstName\":\"John\",\"lastName\":\"Eckfeldt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006754410\",\"authorPosition\":3,\"hIndex\":61,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "eckfe001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -12237,9 +11120,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jregal\",\"firstName\":\"Jean\",\"lastName\":\"Regal\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004040993\",\"authorPosition\":1,\"hIndex\":15,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jregal"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -12272,9 +11152,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bendi001\",\"firstName\":\"David\",\"lastName\":\"Benditt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005315485\",\"authorPosition\":2,\"hIndex\":49,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bendi001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -12304,9 +11181,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -12342,9 +11216,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"saer\",\"firstName\":\"Susan\",\"lastName\":\"Everson-Rose\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6602905729\",\"authorPosition\":1,\"hIndex\":46,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "saer"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -12377,9 +11248,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"porte001\",\"firstName\":\"Mary\",\"lastName\":\"Porter\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7201468125\",\"authorPosition\":4,\"hIndex\":36,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "porte001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0084"
@@ -12417,9 +11285,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hsiao005\",\"firstName\":\"Karen\",\"lastName\":\"Ashe\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101919893\",\"authorPosition\":1,\"hIndex\":62,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hsiao005"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -12455,10 +11320,6 @@
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":5,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"stan\",\"firstName\":\"Stanley\",\"lastName\":\"Finkelstein\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102200245\",\"authorPosition\":1,\"hIndex\":26,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001",
-      "stan"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0091"
@@ -12491,9 +11352,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hordi001\",\"firstName\":\"Maria\",\"lastName\":\"Hordinsky\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003738033\",\"authorPosition\":1,\"hIndex\":34,\"deptId\":\"Z0089\",\"deptName\":\"Dermatology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hordi001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0089"
@@ -12533,10 +11391,6 @@
       "{\"internetID\":\"sunda001\",\"firstName\":\"Sundaram\",\"lastName\":\"Ramakrishnan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"23109838600\",\"authorPosition\":8,\"hIndex\":35,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}",
       "{\"internetID\":\"carso001\",\"firstName\":\"Linda\",\"lastName\":\"Carson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007050568\",\"authorPosition\":7,\"hIndex\":34,\"deptId\":\"Z0097\",\"deptName\":\"Obstetrics and Gynecology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "sunda001",
-      "carso001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086",
       "Z0097"
@@ -12570,9 +11424,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"jenki002\",\"firstName\":\"Marc\",\"lastName\":\"Jenkins\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402024791\",\"authorPosition\":2,\"hIndex\":64,\"deptId\":\"Z0085\",\"deptName\":\"Microbiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "jenki002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0085"
@@ -12608,10 +11459,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":5,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"patte001\",\"firstName\":\"Robert\",\"lastName\":\"Patterson\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"35557152200\",\"authorPosition\":1,\"hIndex\":22,\"deptId\":\"Z0101\",\"deptName\":\"Physical Medicine and Rehabilitation\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001",
-      "patte001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092",
@@ -12650,9 +11497,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"ecker001\",\"firstName\":\"Elke\",\"lastName\":\"Eckert\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102250841\",\"authorPosition\":2,\"hIndex\":38,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "ecker001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -12682,9 +11526,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"biros001\",\"firstName\":\"Michelle\",\"lastName\":\"Biros\",\"tenure_status\":\"\",\"scopus_author_id\":\"7007145616\",\"authorPosition\":1,\"hIndex\":27,\"deptId\":\"Z0106\",\"deptName\":\"Emergency Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "biros001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0106"
@@ -12725,9 +11566,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kasht001\",\"firstName\":\"Clifford\",\"lastName\":\"Kashtan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007130345\",\"authorPosition\":6,\"hIndex\":38,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kasht001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100"
     ],
@@ -12765,10 +11603,6 @@
       "{\"internetID\":\"shumw001\",\"firstName\":\"Sara\",\"lastName\":\"Shumway\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004980417\",\"authorPosition\":6,\"hIndex\":27,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"hertz001\",\"firstName\":\"Marshall\",\"lastName\":\"Hertz\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102692035\",\"authorPosition\":1,\"hIndex\":54,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "shumw001",
-      "hertz001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103",
       "Z0092"
@@ -12802,9 +11636,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"roonx001\",\"firstName\":\"Robert\",\"lastName\":\"Roon\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701700598\",\"authorPosition\":1,\"hIndex\":18,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "roonx001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -12843,9 +11674,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"pritz001\",\"firstName\":\"Marc\",\"lastName\":\"Pritzker\",\"tenure_status\":\"\",\"scopus_author_id\":\"55390238200\",\"authorPosition\":6,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "pritz001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -12877,9 +11705,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"pauls\",\"firstName\":\"Paul\",\"lastName\":\"Siliciano\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701737603\",\"authorPosition\":1,\"hIndex\":14,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "pauls"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -12922,9 +11747,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":12,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "balfo001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -12955,9 +11777,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcivo001\",\"firstName\":\"R\",\"lastName\":\"Mc Ivor\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004499922\",\"authorPosition\":2,\"hIndex\":33,\"deptId\":\"Z0084\",\"deptName\":\"Genetics, Cell Biology and Development\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcivo001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0084"
@@ -12991,9 +11810,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"kenne001\",\"firstName\":\"William\",\"lastName\":\"Kennedy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202593564\",\"authorPosition\":3,\"hIndex\":47,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "kenne001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0093"
     ],
@@ -13026,9 +11842,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jvpardo\",\"firstName\":\"Jose\",\"lastName\":\"Pardo\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201754668\",\"authorPosition\":1,\"hIndex\":38,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jvpardo"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0096"
     ],
@@ -13058,9 +11871,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "buchw001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -13093,9 +11903,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"schot002\",\"firstName\":\"Janet\",\"lastName\":\"Schottel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004077684\",\"authorPosition\":2,\"hIndex\":21,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "schot002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0083"
@@ -13131,9 +11938,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":5,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -13165,9 +11969,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"slung001\",\"firstName\":\"Arne\",\"lastName\":\"Slungaard\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004191232\",\"authorPosition\":1,\"hIndex\":31,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "slung001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -13197,9 +11998,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -13231,9 +12029,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"arend001\",\"firstName\":\"Elizabeth\",\"lastName\":\"Arendt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005314447\",\"authorPosition\":2,\"hIndex\":26,\"deptId\":\"Z0099\",\"deptName\":\"Orthopaedic Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "arend001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0099"
@@ -13270,16 +12065,10 @@
       "{\"internetID\":\"robertso\",\"firstName\":\"Paul\",\"lastName\":\"Robertson\",\"tenure_status\":\"\",\"scopus_author_id\":\"55664755000\",\"authorPosition\":5,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"redmo001\",\"firstName\":\"Bruce\",\"lastName\":\"Redmon\",\"tenure_status\":\"\",\"scopus_author_id\":\"7003624188\",\"authorPosition\":3,\"hIndex\":30,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "robertso",
-      "redmo001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0092",
       "Z0092"
     ],
     "affiliateAuthorsDeptName": [
-      "Medicine",
       "Medicine"
     ]
   },
@@ -13310,9 +12099,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"kofuj001\",\"firstName\":\"Paulo\",\"lastName\":\"Kofuji\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6701527969\",\"authorPosition\":2,\"hIndex\":30,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "kofuj001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0107"
@@ -13348,9 +12134,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"sathayer\",\"firstName\":\"Stanley\",\"lastName\":\"Thayer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007075986\",\"authorPosition\":6,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "sathayer"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -13389,16 +12172,10 @@
       "{\"internetID\":\"belan001\",\"firstName\":\"Kumar\",\"lastName\":\"Belani\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35846789000\",\"authorPosition\":2,\"hIndex\":25,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}",
       "{\"internetID\":\"beebe001\",\"firstName\":\"David\",\"lastName\":\"Beebe\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102716965\",\"authorPosition\":1,\"hIndex\":13,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belan001",
-      "beebe001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0088",
       "Z0088"
     ],
     "affiliateAuthorsDeptName": [
-      "Anesthesiology",
       "Anesthesiology"
     ]
   },
@@ -13424,9 +12201,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -13466,9 +12240,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"peter001\",\"firstName\":\"Bruce\",\"lastName\":\"Peterson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55221546300\",\"authorPosition\":9,\"hIndex\":37,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "peter001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -13506,19 +12277,10 @@
       "{\"internetID\":\"raymo002\",\"firstName\":\"Nancy\",\"lastName\":\"Raymond\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7007148391\",\"authorPosition\":2,\"hIndex\":24,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}",
       "{\"internetID\":\"ecker001\",\"firstName\":\"Elke\",\"lastName\":\"Eckert\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102250841\",\"authorPosition\":5,\"hIndex\":38,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "faris001",
-      "raymo002",
-      "ecker001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0096",
-      "Z0096",
       "Z0096"
     ],
     "affiliateAuthorsDeptName": [
-      "Psychiatry",
-      "Psychiatry",
       "Psychiatry"
     ]
   },
@@ -13547,9 +12309,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"elfak001\",\"firstName\":\"Esam\",\"lastName\":\"El-Fakahany\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006226426\",\"authorPosition\":4,\"hIndex\":37,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "elfak001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -13584,10 +12343,6 @@
       "{\"internetID\":\"mcgla001\",\"firstName\":\"Philip\",\"lastName\":\"Mc Glave\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005120965\",\"authorPosition\":3,\"hIndex\":70,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"mccar001\",\"firstName\":\"James\",\"lastName\":\"Mc Carthy\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7402958747\",\"authorPosition\":2,\"hIndex\":63,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mcgla001",
-      "mccar001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0091"
@@ -13620,9 +12375,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hordi001\",\"firstName\":\"Maria\",\"lastName\":\"Hordinsky\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7003738033\",\"authorPosition\":2,\"hIndex\":34,\"deptId\":\"Z0089\",\"deptName\":\"Dermatology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hordi001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0089"
@@ -13659,10 +12411,6 @@
       "{\"internetID\":\"belcher\",\"firstName\":\"John\",\"lastName\":\"Belcher\",\"tenure_status\":\"\",\"scopus_author_id\":\"35745516800\",\"authorPosition\":4,\"hIndex\":28,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"gross001\",\"firstName\":\"Myron\",\"lastName\":\"Gross\",\"tenure_status\":\"\",\"scopus_author_id\":\"7403744666\",\"authorPosition\":5,\"hIndex\":53,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belcher",
-      "gross001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0091"
@@ -13695,9 +12443,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"green048\",\"firstName\":\"Edward\",\"lastName\":\"Greeno\",\"tenure_status\":\"\",\"scopus_author_id\":\"6603602626\",\"authorPosition\":1,\"hIndex\":13,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "green048"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -13737,16 +12482,10 @@
       "{\"internetID\":\"shumw001\",\"firstName\":\"Sara\",\"lastName\":\"Shumway\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004980417\",\"authorPosition\":8,\"hIndex\":27,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}",
       "{\"internetID\":\"bianc001\",\"firstName\":\"Richard\",\"lastName\":\"Bianco\",\"tenure_status\":\"\",\"scopus_author_id\":\"7005203933\",\"authorPosition\":2,\"hIndex\":24,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "shumw001",
-      "bianc001"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0103",
       "Z0103"
     ],
     "affiliateAuthorsDeptName": [
-      "Surgery",
       "Surgery"
     ]
   },
@@ -13782,11 +12521,6 @@
       "{\"internetID\":\"ander012\",\"firstName\":\"David\",\"lastName\":\"Anderson\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"55483399300\",\"authorPosition\":3,\"hIndex\":29,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}",
       "{\"internetID\":\"mille002\",\"firstName\":\"Wesley\",\"lastName\":\"Miller\",\"tenure_status\":\"\",\"scopus_author_id\":\"7406061966\",\"authorPosition\":8,\"hIndex\":36,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "allen001",
-      "ander012",
-      "mille002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0090",
       "Z0093",
@@ -13820,9 +12554,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hamme001\",\"firstName\":\"Dale\",\"lastName\":\"Hammerschmidt\",\"tenure_status\":\"\",\"scopus_author_id\":\"34974094100\",\"authorPosition\":1,\"hIndex\":30,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hamme001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -13862,9 +12593,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"jsiegfri\",\"firstName\":\"Jill\",\"lastName\":\"Siegfried\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"16140540800\",\"authorPosition\":7,\"hIndex\":52,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "jsiegfri"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0086"
     ],
@@ -13895,9 +12623,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"sunda001\",\"firstName\":\"Sundaram\",\"lastName\":\"Ramakrishnan\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"23109838600\",\"authorPosition\":2,\"hIndex\":35,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "sunda001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -13933,9 +12658,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"tsupr001\",\"firstName\":\"Vladimir\",\"lastName\":\"Tsuprun\",\"tenure_status\":\"\",\"scopus_author_id\":\"7004203548\",\"authorPosition\":4,\"hIndex\":18,\"deptId\":\"Z0095\",\"deptName\":\"Otolaryngology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "tsupr001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0095"
     ],
@@ -13965,9 +12687,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -13999,9 +12718,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"madoff\",\"firstName\":\"Robert\",\"lastName\":\"Madoff\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006761006\",\"authorPosition\":1,\"hIndex\":55,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "madoff"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -14031,9 +12747,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"johns336\",\"firstName\":\"Robert\",\"lastName\":\"Johnson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7407017655\",\"authorPosition\":1,\"hIndex\":7,\"deptId\":\"Z0090\",\"deptName\":\"Family Medicine\\/Comm Health (TC)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "johns336"
     ],
     "affiliateAuthorsDeptId": [
       "Z0090"
@@ -14069,10 +12782,6 @@
       "{\"internetID\":\"palle001\",\"firstName\":\"Mark\",\"lastName\":\"Paller\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006274988\",\"authorPosition\":1,\"hIndex\":32,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"maniv001\",\"firstName\":\"Juan\",\"lastName\":\"Manivel\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006421205\",\"authorPosition\":2,\"hIndex\":52,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "palle001",
-      "maniv001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092",
       "Z0091"
@@ -14104,9 +12813,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"truwit\",\"firstName\":\"Chip\",\"lastName\":\"Truwit\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35464512200\",\"authorPosition\":1,\"hIndex\":44,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "truwit"
     ],
     "affiliateAuthorsDeptId": [
       "Z0102"
@@ -14142,9 +12848,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lipsc001\",\"firstName\":\"John\",\"lastName\":\"Lipscomb\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103359198\",\"authorPosition\":4,\"hIndex\":58,\"deptId\":\"Z0083\",\"deptName\":\"Biochemistry, Molecular Biology, Biophysics (Medical School)\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lipsc001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0083"
     ],
@@ -14177,9 +12880,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ldrewes\",\"firstName\":\"Lester\",\"lastName\":\"Drewes\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006409762\",\"authorPosition\":3,\"hIndex\":34,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ldrewes"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -14214,9 +12914,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"loken006\",\"firstName\":\"James\",\"lastName\":\"Lokensgard\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004144734\",\"authorPosition\":3,\"hIndex\":34,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "loken006"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14247,9 +12944,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"buchw001\",\"firstName\":\"Henry\",\"lastName\":\"Buchwald\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7101626942\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "buchw001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -14286,9 +12980,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hirsc005\",\"firstName\":\"Alan\",\"lastName\":\"Hirsch\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201744651\",\"authorPosition\":1,\"hIndex\":55,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hirsc005"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14319,9 +13010,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"furch001\",\"firstName\":\"Leo\",\"lastName\":\"Furcht\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005196927\",\"authorPosition\":1,\"hIndex\":57,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "furch001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -14357,9 +13045,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"lakex009\",\"firstName\":\"John\",\"lastName\":\"Lake\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"13310136500\",\"authorPosition\":3,\"hIndex\":68,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "lakex009"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14393,9 +13078,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bianc001\",\"firstName\":\"Richard\",\"lastName\":\"Bianco\",\"tenure_status\":\"\",\"scopus_author_id\":\"7005203933\",\"authorPosition\":4,\"hIndex\":24,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bianc001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -14426,9 +13108,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"madoff\",\"firstName\":\"Robert\",\"lastName\":\"Madoff\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006761006\",\"authorPosition\":2,\"hIndex\":55,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "madoff"
     ],
     "affiliateAuthorsDeptId": [
       "Z0103"
@@ -14464,9 +13143,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"liaox014\",\"firstName\":\"Kenneth\",\"lastName\":\"Liao\",\"tenure_status\":\"Termination- Tenured\",\"scopus_author_id\":\"7203022907\",\"authorPosition\":1,\"hIndex\":17,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "liaox014"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -14496,9 +13172,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"dupre007\",\"firstName\":\"Daniel\",\"lastName\":\"Duprez\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102019522\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "dupre007"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -14531,9 +13204,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ldrewes\",\"firstName\":\"Lester\",\"lastName\":\"Drewes\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006409762\",\"authorPosition\":2,\"hIndex\":34,\"deptId\":\"11939\",\"deptName\":\"Biomedical Sciences (Duluth)\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ldrewes"
     ],
     "affiliateAuthorsDeptId": [
       "11939"
@@ -14571,11 +13241,6 @@
       "{\"internetID\":\"billi005\",\"firstName\":\"Charles\",\"lastName\":\"Billington\",\"tenure_status\":\"\",\"scopus_author_id\":\"35601719100\",\"authorPosition\":5,\"hIndex\":51,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}",
       "{\"internetID\":\"clear006\",\"firstName\":\"James\",\"lastName\":\"Cleary\",\"tenure_status\":\"\",\"scopus_author_id\":\"7103031008\",\"authorPosition\":4,\"hIndex\":27,\"deptId\":\"Z0093\",\"deptName\":\"Neurology\"}",
       "{\"internetID\":\"aslevine\",\"firstName\":\"Allen\",\"lastName\":\"Levine\",\"tenure_status\":\"\",\"scopus_author_id\":\"7401603368\",\"authorPosition\":6,\"hIndex\":67,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "billi005",
-      "clear006",
-      "aslevine"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092",
@@ -14617,9 +13282,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"bendi001\",\"firstName\":\"David\",\"lastName\":\"Benditt\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005315485\",\"authorPosition\":6,\"hIndex\":49,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "bendi001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14655,10 +13317,6 @@
       "{\"internetID\":\"balfo001\",\"firstName\":\"Henry\",\"lastName\":\"Balfour\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7103250933\",\"authorPosition\":5,\"hIndex\":65,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}",
       "{\"internetID\":\"simps006\",\"firstName\":\"Margaret\",\"lastName\":\"Simpson\",\"tenure_status\":\"\",\"scopus_author_id\":\"7202043128\",\"authorPosition\":4,\"hIndex\":10,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "balfo001",
-      "simps006"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091",
       "Z0092"
@@ -14691,9 +13349,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"swolf\",\"firstName\":\"Susan\",\"lastName\":\"Wolf\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402621642\",\"authorPosition\":1,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "swolf"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14725,9 +13380,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"wiacono\",\"firstName\":\"William\",\"lastName\":\"Iacono\",\"tenure_status\":\"\",\"scopus_author_id\":\"26643122100\",\"authorPosition\":3,\"hIndex\":75,\"deptId\":\"Z0096\",\"deptName\":\"Psychiatry\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "wiacono"
     ],
     "affiliateAuthorsDeptId": [
       "Z0096"
@@ -14764,16 +13416,10 @@
       "{\"internetID\":\"mauer002\",\"firstName\":\"Michael\",\"lastName\":\"Mauer\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006493432\",\"authorPosition\":5,\"hIndex\":70,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"avikatz\",\"firstName\":\"Avi\",\"lastName\":\"Katz\",\"tenure_status\":\"\",\"scopus_author_id\":\"7402569510\",\"authorPosition\":1,\"hIndex\":12,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mauer002",
-      "avikatz"
-    ],
     "affiliateAuthorsDeptId": [
-      "Z0100",
       "Z0100"
     ],
     "affiliateAuthorsDeptName": [
-      "Pediatrics",
       "Pediatrics"
     ]
   },
@@ -14805,9 +13451,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mcfal001\",\"firstName\":\"Edward\",\"lastName\":\"McFalls\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006867772\",\"authorPosition\":5,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mcfal001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -14845,9 +13488,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"hirsc005\",\"firstName\":\"Alan\",\"lastName\":\"Hirsch\",\"tenure_status\":\"\",\"scopus_author_id\":\"7201744651\",\"authorPosition\":3,\"hIndex\":55,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "hirsc005"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -14881,9 +13521,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"clark002\",\"firstName\":\"H. Brent\",\"lastName\":\"Clark\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202405689\",\"authorPosition\":4,\"hIndex\":39,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "clark002"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0091"
     ],
@@ -14915,9 +13552,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"ferri002\",\"firstName\":\"Patricia\",\"lastName\":\"Ferrieri\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006553543\",\"authorPosition\":1,\"hIndex\":45,\"deptId\":\"Z0091\",\"deptName\":\"Lab Medicine\\/Pathology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "ferri002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0091"
@@ -14953,9 +13587,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"taylora\",\"firstName\":\"Andrew\",\"lastName\":\"Taylor\",\"tenure_status\":\"\",\"scopus_author_id\":\"55473522000\",\"authorPosition\":1,\"hIndex\":29,\"deptId\":\"Z0102\",\"deptName\":\"Radiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "taylora"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0102"
     ],
@@ -14990,9 +13621,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"wesse001\",\"firstName\":\"Martin\",\"lastName\":\"Wessendorf\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004258006\",\"authorPosition\":4,\"hIndex\":33,\"deptId\":\"Z0107\",\"deptName\":\"Neuroscience\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "wesse001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0107"
     ],
@@ -15025,9 +13653,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"miles001\",\"firstName\":\"Steven\",\"lastName\":\"Miles\",\"tenure_status\":\"\",\"scopus_author_id\":\"7102787713\",\"authorPosition\":3,\"hIndex\":25,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "miles001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -15066,9 +13691,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"mcfal001\",\"firstName\":\"Edward\",\"lastName\":\"McFalls\",\"tenure_status\":\"\",\"scopus_author_id\":\"7006867772\",\"authorPosition\":4,\"hIndex\":27,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "mcfal001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -15101,9 +13723,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"garry\",\"firstName\":\"Daniel\",\"lastName\":\"Garry\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006865345\",\"authorPosition\":1,\"hIndex\":40,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "garry"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -15144,23 +13763,13 @@
       "{\"internetID\":\"stein055\",\"firstName\":\"Julia\",\"lastName\":\"Steinberger\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006869012\",\"authorPosition\":1,\"hIndex\":48,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}",
       "{\"internetID\":\"bassx001\",\"firstName\":\"John\",\"lastName\":\"Bass\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7202858228\",\"authorPosition\":3,\"hIndex\":27,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "braun002",
-      "foker001",
-      "stein055",
-      "bassx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0100",
-      "Z0103",
-      "Z0100",
-      "Z0100"
+      "Z0103"
     ],
     "affiliateAuthorsDeptName": [
       "Pediatrics",
-      "Surgery",
-      "Pediatrics",
-      "Pediatrics"
+      "Surgery"
     ]
   },
   {
@@ -15187,10 +13796,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"valle001\",\"firstName\":\"Daniel\",\"lastName\":\"Vallera\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006107144\",\"authorPosition\":1,\"hIndex\":43,\"deptId\":\"Z0104\",\"deptName\":\"Radiation Oncology\"}",
       "{\"internetID\":\"blaza001\",\"firstName\":\"Bruce\",\"lastName\":\"Blazar\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102198392\",\"authorPosition\":2,\"hIndex\":94,\"deptId\":\"Z0100\",\"deptName\":\"Pediatrics\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "valle001",
-      "blaza001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0104",
@@ -15233,9 +13838,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"belan001\",\"firstName\":\"Kumar\",\"lastName\":\"Belani\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35846789000\",\"authorPosition\":3,\"hIndex\":25,\"deptId\":\"Z0088\",\"deptName\":\"Anesthesiology\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "belan001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0088"
     ],
@@ -15267,9 +13869,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"bache001\",\"firstName\":\"Robert\",\"lastName\":\"Bache\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7102698646\",\"authorPosition\":1,\"hIndex\":50,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "bache001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -15304,9 +13903,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"cohnx001\",\"firstName\":\"Jay\",\"lastName\":\"Cohn\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"35254807700\",\"authorPosition\":1,\"hIndex\":95,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "cohnx001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0092"
     ],
@@ -15338,9 +13934,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"walse001\",\"firstName\":\"Timothy\",\"lastName\":\"Walseth\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7005424273\",\"authorPosition\":2,\"hIndex\":47,\"deptId\":\"Z0086\",\"deptName\":\"Pharmacology\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "walse001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0086"
@@ -15375,9 +13968,6 @@
     "affiliateAuthors": [
       "{\"internetID\":\"madda001\",\"firstName\":\"Michael\",\"lastName\":\"Maddaus\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7004175677\",\"authorPosition\":1,\"hIndex\":33,\"deptId\":\"Z0103\",\"deptName\":\"Surgery\"}"
     ],
-    "affiliateAuthorsInternetId": [
-      "madda001"
-    ],
     "affiliateAuthorsDeptId": [
       "Z0103"
     ],
@@ -15407,9 +13997,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"hebbe001\",\"firstName\":\"Robert\",\"lastName\":\"Hebbel\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"7006964574\",\"authorPosition\":1,\"hIndex\":65,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "hebbe001"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
@@ -15443,9 +14030,6 @@
     ],
     "affiliateAuthors": [
       "{\"internetID\":\"mansk002\",\"firstName\":\"Connie\",\"lastName\":\"Manske\",\"tenure_status\":\"Tenured\",\"scopus_author_id\":\"6603695055\",\"authorPosition\":1,\"hIndex\":14,\"deptId\":\"Z0092\",\"deptName\":\"Medicine\"}"
-    ],
-    "affiliateAuthorsInternetId": [
-      "mansk002"
     ],
     "affiliateAuthorsDeptId": [
       "Z0092"
