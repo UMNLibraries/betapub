@@ -15,10 +15,14 @@ module ApplicationHelper
     affiliates_internet_ids
   end
 
+  # Return a formatted string of authors where UMN affiliate authors
+  # are linked to author pages
   def authors_highlight_affiliates(authors, affiliateAuthors)
     affiliates = affiliate_authors_parse_json(affiliateAuthors)
     authors_linked = []
     authors.each_with_index do |a, idx|
+      # Match author position from affiliateAuthors to full authors array by index
+      # and create links for matches
       if affiliates[idx]
         authors_linked << link_to(a, controller: 'authors', action: 'show', internet_id: affiliates[idx]).html_safe
       else
