@@ -69,8 +69,8 @@
 </h2>
 
 <p>
-  <strong>Internet:</strong>
-  <%= link_to @author.internet_id, author_path(@author.internet_id) %>
+  <strong>Directory:</strong>
+  <%= link_to "#{@author.internet_id}", "http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC&type=Internet+ID&CN=#{@author.internet_id}" %>
 </p>
 
 <p>
