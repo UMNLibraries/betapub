@@ -8,8 +8,7 @@
          css_class: "toggle_bookmark",
          success: function(checked, response) {
            if (response.bookmarks) {
-             $('[data-role=bookmark-counter]').text(response.bookmarks.count).text('<span class="glyphicon glyphicon-bookmark"></span>');
-
+             $('[data-role=bookmark-counter]').text(response.bookmarks.count);
            }
          }
       });

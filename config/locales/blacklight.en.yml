@@ -212,9 +212,8 @@ en:
       fields:
         default: 'Keyword'
       bookmarks:
-        present:
-          html: '<span class="glyphicon glyphicon-bookmark " aria-hidden="true"></span>'
-        absent: "Bookmark!"
+        present: "Bookmarked"
+        absent: "Add Bookmark"
         inprogress: "Saving..."
       zero_results:
         title: "Still haven't found what you're looking for?"
