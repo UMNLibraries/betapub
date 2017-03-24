@@ -30,28 +30,28 @@ end
 </div>
 <dl class="row dl-invert">
   <dt class="blacklight-authors col-md-2">Authors:</dt>
-  <dd class="blacklight-authors col-md-10"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></dd>
+  <dd class="blacklight-authors col-md-9"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></dd>
   <dt class="blacklight-pubname col-md-2">Published in:</dt>
-  <dd class="blacklight-pubname col-md-10"><%= fields['pubName'] %>
+  <dd class="blacklight-pubname col-md-9"><%= fields['pubName'] %>
     <% if fields['volume'] %>, Vol. <%= fields['volume'] %><% end -%>
     <% if fields['issue'] %>, Issue <%= fields['issue'] %><% end -%>
     <% if fields['pageRange'] %>, pp. <%= fields['pageRange'] %><% end -%>
   </dd>
   <% if fields['pmid'] %>
-  <dt class="blacklight-pmid col-md-2">PubMed ID (modified):</dt>
-  <dd class="blacklight-pmid col-md-10">
+  <dt class="blacklight-pmid col-md-2">PubMed ID:</dt>
+  <dd class="blacklight-pmid col-md-9">
     <a href="https://www.ncbi.nlm.nih.gov/pubmed/<%= fields['pmid'] %>"><%= fields['pmid'] %></a>
   </dd>
   <% end -%>
   <% if fields['scopus_eid'] %>
   <dt class="blacklight-scopus_eid col-md-2">Scopus ID:</dt>
-  <dd class="blacklight-scopus_eid col-md-10">
+  <dd class="blacklight-scopus_eid col-md-9">
     <a href="https://www.scopus.com/record/display.uri?eid=<%= fields['scopus_eid'] %>&origin=resultslist"><%= fields['scopus_eid'] %></a>
   </dd>
   <% end -%>
   <% if fields['doi'] %>
   <dt class="blacklight-doi col-md-2">DOI:</dt>
-  <dd class="blacklight-doi col-md-10">
+  <dd class="blacklight-doi col-md-9">
     <a href="https://doi.org/<%= fields['doi'] %>"><%= fields['doi'] %></a>
   </dd>
   <% end -%>
