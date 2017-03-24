@@ -85,16 +85,3 @@
         <% unless (doc_presenter.field_value "doi").empty? %><dt class="blacklight-doi col-md-2">DOI:</dt>
         <dd class="blacklight-doi col-md-10"><a href="https://doi.org/<%= doc_presenter.field_value "doi" %>"><%= doc_presenter.field_value "doi" %></a></dd><% end -%>
 </dl>
-
-<p>CUSTOM _SHOW STUFF UP HERE^</p>
-<hr />
-<p>STANDARD _SHOW STUFF DOWN HERE</p>
-
-<dl class="row dl-invert">
-  <% document_show_fields(document).each do |field_name, field| -%>
-    <% if should_render_show_field? document, field %>
-	    <dt class="blacklight-<%= field_name.parameterize %> col-md-3"><%= render_document_show_field_label document, field: field_name %></dt>
-	    <dd class="blacklight-<%= field_name.parameterize %> col-md-9"><%= doc_presenter.field_value field_name %></dd>
-    <% end -%>
-  <% end -%>
-</dl>
