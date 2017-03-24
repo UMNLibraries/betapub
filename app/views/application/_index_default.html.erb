@@ -10,7 +10,7 @@
             </div>
         </div>
  <p><span class="blacklight-authors"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></p>
- <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %>
+ <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %>, <%= doc_presenter.field_value "displayDate" %>. Cited by <%= doc_presenter.field_value "citedByCount" %>.
 </p>
 </div>
 </div>
