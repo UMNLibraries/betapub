@@ -77,7 +77,7 @@
 
 <p>
   <strong>Scopus author:</strong>
-  <%= @author.scopus_author_id %>
+  <%= link_to @author.scopus_author_id, "https://www.scopus.com/authid/detail.uri?authorId=#{@author.scopus_author_id}" %>
 </p>
 
 <p>
