@@ -9,7 +9,7 @@
                 <svg class="icon icon-<%= formaticon %>" aria-hidden="true"><use xlink:href="#icon-<%= formaticon %>"></use></svg><span class="sr-only"> <%= doc_presenter.field_value "docTypeDescription" %></span>
             </div>
         </div>
- <p><span class="blacklight-authors"><%= doc_presenter.field_value "authors" %></p>
+ <p><span class="blacklight-authors"><%= authors_highlight_affiliates(document._source['authors'], document._source['affiliateAuthors']).html_safe  %></p>
  <p class="blacklight-cited"><span class="blacklight-format"><%= doc_presenter.field_value "docTypeDescription" %></span> in <%= doc_presenter.field_value "pubName" %> on <%= pubdate_formatter(doc_presenter.field_value("pubDate"), '%b %d, %Y') %>
 </p>
 </div>
