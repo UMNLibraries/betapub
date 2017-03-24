@@ -12,6 +12,7 @@ class AuthorsController < ApplicationController
   # GET /authors/1.json
   def show
     (@response, @document_list) = search_results(set_author_query(params))
+    @no_header_search = true
   end
 
   # GET /authors/new

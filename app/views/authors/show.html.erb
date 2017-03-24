@@ -86,6 +86,14 @@
   (<%= @author.dept_id %>)
 </p>
 
+<hr/>
+
+<h4>Search Within My Publications</h4>
+
+<div class="col-12-lg well">
+  <%= render 'catalog/search_form' %>
+</div>
+
 <div id="sidebar" class="<%= sidebar_classes %>">
   <%= render 'search_sidebar' %>
 </div>
