@@ -2,7 +2,7 @@
 <% doc_presenter = show_presenter(document) %>
   <h3 class="modal-title"><%= document_heading(document) %></h3>
    <h4>APA</h4>
-   <p><% if (doc_presenter.field_value "authors").length > 7 %>
+   <p><!--<% if (doc_presenter.field_value "authors").length > 7 %>
         <% iauthor = 0 %>
         <% loop do %>
           <%= (doc_presenter.field_value "authors")[iauthor] %>,
@@ -12,7 +12,8 @@
         . . . <%= (doc_presenter.field_value "authors").last %>
       <% else %>
         <%= doc_presenter.field_value "authors" %>
-      <% end %>
+      <% end %>-->
+
      <%- unless (doc_presenter.field_value "pubDate").empty? %>
       (<%= pubdate_formatter(doc_presenter.field_value("pubDate"), "%Y") %>)
       <% end -%>. <%= doc_presenter.field_value "pubTitleDisplay" %> <i><%= doc_presenter.field_value "pubName" %></i><%- unless (doc_presenter.field_value "volume").empty? %>, <i><%= doc_presenter.field_value "volume" %></i><% end -%><%- unless (doc_presenter.field_value "issue").empty? %>(<%= doc_presenter.field_value "issue" %>)<% end -%><% unless (doc_presenter.field_value "pageRange").empty? %>, <%= doc_presenter.field_value "pageRange" %><% end -%>.</p>
