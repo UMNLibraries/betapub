@@ -66,3 +66,6 @@ vendor/solr/server/logs/archived/solr_gc.log.0.current
 
 vendor/solr/server/solr/betapub/data/*
 !vendor/solr/server/solr/betapub/data/.keep
+
+# Full data isn't included
+data/publication-data.json
